@@ -35,7 +35,7 @@ Es importante tener en cuenta que con este flujo de trabajo, tienes el potencial
 
 ### Revisión de Solicitudes de Extracción y Problemas
 
-Una de tus responsabilidades como pasante es revisar y ayudar a los pasantes prospectivos con sus problemas / solicitudes de extracción en [open-learning-exchange/open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io). Para comenzar una revisión, navega a la pestaña 'Files changed' en una solicitud de extracción. Familiarízate con las funciones de revisión de GitHub consultando la [documentación sobre Revisiones en GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
+Una de tus responsabilidades como pasante es revisar y ayudar a los pasantes prospectivos con sus problemas / solicitudes de extracción en [todosconectados-gt/todosconectados-gt.github.io](https://github.com/todosconectados-gt/todosconectados-gt.github.io). Para comenzar una revisión, navega a la pestaña 'Files changed' en una solicitud de extracción. Familiarízate con las funciones de revisión de GitHub consultando la [documentación sobre Revisiones en GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
 
 Asegúrate de ser consciente de nuestra diversa comunidad al comunicar comentarios. Consulta [**Una guía para revisar código y tener tu código revisado**](https://github.com/thoughtbot/guides/tree/main/code-review#code-review) para obtener consejos sobre el uso de lenguaje inclusivo y fomentar un entorno de apoyo.
 
@@ -98,7 +98,7 @@ Mientras eres libre de trabajar a tu propio ritmo, te recomendamos seguir esta r
 - Revisa los canales de Discord y tus mensajes privados en Discord.
 - Únete a la [sesión de Google Meet de OLE](http://talk.ole.org) si puedes, para que puedas seguir en qué está trabajando todo el mundo y obtener ayuda rápidamente.
 - Regístrate verbalmente o escribe un mensaje en el canal vi-lounge de Discord con el formato mencionado anteriormente.
-- Revisa cualquier problema o solicitud de extracción que se haya agregado o cambiado en [open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io) desde la última vez que revisaste.
+- Revisa cualquier problema o solicitud de extracción que se haya agregado o cambiado en [open-learning-exchange.github.io](https://github.com/todosconectados-gt/todosconectados-gt.github.io) desde la última vez que revisaste.
 - Cierra problemas con `(fixes #IssueNumber)` en el mensaje de commit de fusión squash de la solicitud de extracción.
 - Trabaja en tus problemas y escribe en el canal de Discord del repositorio respectivo cada vez que te enfrentes a problemas.
 - Realiza commits con frecuencia y crea solicitudes de extracción lo antes posible, para que puedas obtener retroalimentación mientras trabajas.

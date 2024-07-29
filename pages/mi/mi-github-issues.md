@@ -5,7 +5,7 @@
 - Aprender sobre Issues, Commits y Pull Requests en GitHub
 - Entender el flujo de trabajo colaborativo de git/GitHub utilizado durante la pasantía
 - Crear un Issue sobre los Primeros Pasos para Internos Móviles, luego crear una rama para solucionarlo tras su aprobación
-- Después de resolver el Issue, hacer un Pull Request al repositorio `open-learning-exchange/open-learning-exchange.github.io`
+- Después de resolver el Issue, hacer un Pull Request al repositorio `todosconectados-gt/todosconectados-gt.github.io`
 - Trabajar con nosotros para realizar los cambios necesarios, luego fusionar la rama en el repositorio principal
 - Comentar en un Issue existente
 
