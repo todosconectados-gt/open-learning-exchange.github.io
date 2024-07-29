@@ -1,209 +1,211 @@
-# GitHub Issues Tutorial
+# Tutorial de Issues en GitHub
 
-## 1. Objectives
+## 1. Objetivos
 
-- Learn about GitHub Issues, Commits, and Pull Requests
-- Understand the collaborative git/GitHub workflow used during the internship
-- Create an Issue regarding Mobile Intern First Steps, then create a branch to fix it upon approval
-- After resolving the Issue, make a Pull Request to the `open-learning-exchange/open-learning-exchange.github.io` upstream repository
-- Work with us to make necessary changes, then merge the branch into the upstream repository
-- Comment on an existing Issue
+- Aprender sobre Issues, Commits y Pull Requests en GitHub
+- Entender el flujo de trabajo colaborativo de git/GitHub utilizado durante la pasantía
+- Crear un Issue sobre los Primeros Pasos para Internos Móviles, luego crear una rama para solucionarlo tras su aprobación
+- Después de resolver el Issue, hacer un Pull Request al repositorio `open-learning-exchange/open-learning-exchange.github.io`
+- Trabajar con nosotros para realizar los cambios necesarios, luego fusionar la rama en el repositorio principal
+- Comentar en un Issue existente
 
-## 2. Introduction
+## 2. Introducción
 
-GitHub repositories have a section for Issues, where problems can be categorized, discussed, and fixed. Issues are often opened by our team members to create new features or fix bugs in our projects. This tutorial guides you through the process of creating Issues, branching, making Pull Requests, and collaborating with team members.
+Los repositorios de GitHub tienen una sección para Issues, donde los problemas pueden ser categorizados, discutidos y solucionados. Los Issues suelen ser abiertos por los miembros de nuestro equipo para crear nuevas funciones o solucionar errores en nuestros proyectos. Este tutorial te guiará a través del proceso de creación de Issues, creación de ramas, realización de Pull Requests y colaboración con los miembros del equipo.
 
-We encourage you to file as many issues as possible, whether large or small. If you spot a problem but don't know how to solve it, file an issue so others are aware and can work on a solution. Aim to add as much value as possible with your issues, as this helps support the community and enhances the overall quality of this MDwiki site.
+Te animamos a que presentes tantos issues como sea posible, ya sean grandes o pequeños. Si detectas un problema pero no sabes cómo solucionarlo, presenta un issue para que otros estén al tanto y puedan trabajar en una solución. Intenta agregar el mayor valor posible con tus issues, ya que esto ayuda a apoyar a la comunidad y mejora la calidad general de este sitio MDwiki.
 
-NOTE: Issues are not just about adding new content or improving this MDwiki; they can also involve removing redundant or unnecessary material. The goal is to keep the documentation clear and concise. If you find sections that could be simplified or reduced, feel free to create an issue to help streamline the process.
+NOTA: Los Issues no solo se tratan de agregar nuevo contenido o mejorar este MDwiki; también pueden implicar la eliminación de material redundante o innecesario. El objetivo es mantener la documentación clara y concisa. Si encuentras secciones que podrían simplificarse o reducirse, siéntete libre de crear un issue para ayudar a agilizar el proceso.
 
-## 3. Create an Issue
+## 3. Crear un Issue
 
-If you've noticed an area for improvement in the Mobile Intern First Steps, let's address it. If not, please look around to find an issue. Begin by checking [existing issues labeled with `mi`, both open and closed](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues?q=is%3Aissue+label%3Ami), to ensure it hasn't been raised before or addressed. If it hasn't, let's create a new issue:
+Si has notado un área de mejora en los Primeros Pasos para Internos Móviles, vamos a abordarlo. Si no, por favor busca un issue. Comienza revisando [los issues existentes etiquetados con `mi`, tanto abiertos como cerrados](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues?q=is%3Aissue+label%3Ami), para asegurarte de que no se haya planteado o resuelto antes. Si no se ha planteado, vamos a crear un nuevo issue:
 
-- Go to the [Issues tab of the upstream repository](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues) and select "New Issue." Select the "Get started" button next to "First Steps - Mobile Virtual Intern."
-    1. Craft a succinct, descriptive title.
-    2. Complete the issue template thoroughly, ticking all required checkboxes and providing necessary details.
-    3. Drop a link to this issue in our discord channel.
-- You can reference [this example](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues/3300) to see how an issue follows the issue template with a clear structure.
-- Once submitted, others can provide feedback to guide the next steps.
+- Ve a la [pestaña de Issues del repositorio principal](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues) y selecciona "New Issue". Selecciona el botón "Get started" junto a "First Steps - Mobile Virtual Intern."
+    1. Elabora un título conciso y descriptivo.
+    2. Completa el template del issue de manera exhaustiva, marcando todas las casillas requeridas y proporcionando los detalles necesarios.
+    3. Comparte un enlace a este issue en nuestro canal de Discord.
+- Puedes consultar [este ejemplo](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues/3300) para ver cómo un issue sigue el template con una estructura clara.
+- Una vez enviado, otros pueden proporcionar comentarios para guiar los próximos pasos.
 
-**Note**: While creating a Pull Request doesn't require prior approval, it's best to wait for confirmation of the issue from our team before working on a fix. If your suggested changes don't align with project goals, your Pull Request might not be merged, and your work won't count toward "First Steps" progress. By seeking approval first, you can avoid wasted effort and rework.
+**Nota**: Aunque crear un Pull Request no requiere aprobación previa, es mejor esperar la confirmación del issue por parte de nuestro equipo antes de trabajar en una solución. Si los cambios sugeridos no se alinean con los objetivos del proyecto, tu Pull Request puede no ser fusionado y tu trabajo no contará para el progreso de los "Primeros Pasos". Al buscar aprobación primero, puedes evitar esfuerzos y retrabajos innecesarios.
 
-**Existing Issues:** You can also work on existing issues. If an issue is labeled `mi` and `first step intern`, you can request to work on it by messaging us in Discord. If someone else is already assigned or has stated their intent to work on it in the issue's comment section, don't work on that issue; choose another one instead.
+**Issues existentes:** También puedes trabajar en issues existentes. Si un issue está etiquetado como `mi` y `first step intern`, puedes solicitar trabajar en él enviándonos un mensaje en Discord. Si alguien más ya está asignado o ha expresado su intención de trabajar en él en la sección de comentarios del issue, no trabajes en ese issue; elige otro en su lugar.
 
-_**Special Note**_:
-- Interns often rush through this process to complete their "First Steps." Remember that these steps aim to fix genuine problems and improve the workflow. Take time to examine the "First Steps" materials to find real issues and research the best solutions. Also, ensure the issue hasn't already been identified.
+_**Nota Especial**_:
+- Los internos a menudo se apresuran en este proceso para completar sus "Primeros Pasos". Recuerda que estos pasos tienen como objetivo solucionar problemas reales y mejorar el flujo de trabajo. Tómate el tiempo para examinar los materiales de "Primeros Pasos" para encontrar problemas reales y investigar las mejores soluciones. También, asegúrate de que el issue no haya sido identificado ya.
 
-## 4. Synchronize Your Repository
+## 4. Sincroniza Tu Repositorio
 
-Before you create your branch, sync your repository with the following commands (as we walked you through in the previous step):
+Antes de crear tu rama, sincroniza tu repositorio con los siguientes comandos (como te guiamos en el paso anterior):
 
-1. Fetch the latest changes from the upstream repository:
+1. Obtén los últimos cambios del repositorio principal:
 
    ```sh
    git fetch upstream
    ```
 
-2. Switch to your `master` branch:
+2. Cambia a tu rama `master`:
 
    ```sh
    git checkout master
    ```
 
-3. Merge the fetched changes from the upstream `master` branch into your local `master` branch:
+3. Fusiona los cambios obtenidos de la rama `master` del repositorio principal en tu rama `master` local:
 
    ```sh
    git merge upstream/master
    ```
 
-4. Push the updated `master` branch to your forked repository on GitHub:
+4. Empuja la rama `master` actualizada a tu repositorio bifurcado en GitHub:
 
    ```sh
    git push origin master
    ```
 
-**ATTENTION**: From now on, for the rest of the First Steps, please use the command line to create branches and make commits instead of using GitHub’s web interface. This will give you valuable practice with common Git commands in your terminal, which is essential for working on real code that needs to be tested locally and can’t always be edited directly on GitHub.com.
+**ATENCIÓN**: De ahora en adelante, para el resto de los Primeros Pasos, por favor usa la línea de comandos para crear ramas y hacer commits en lugar de usar la interfaz web de GitHub. Esto te dará práctica valiosa con comandos comunes de Git en tu terminal, lo cual es esencial para trabajar en código real que necesita ser probado localmente y no siempre puede ser editado directamente en GitHub.com.
 
-## 5. Create a New Branch
+## 5. Crear una Nueva Rama
 
-**Every time you start to work on an issue, you need to create a branch to keep issues you are working on separated from each other.** Make sure to use a descriptive name for your branch in the following fashion: **issueNumber-descriptive-branch-name**.
+**Cada vez que empieces a trabajar en un issue, necesitas crear una rama para mantener separados los issues en los que estás trabajando.** Asegúrate de usar un nombre descriptivo para tu rama de la siguiente manera: **issueNumber-nombre-descriptivo-de-la-rama**.
 
-- To create and switch to a new branch from `master`, run the following commands:
+- Para crear y cambiar a una nueva rama desde `master`, ejecuta los siguientes comandos:
 
   ```sh
-  git checkout master  # Ensure you are on the master branch
-  git checkout -b <issueNumber-descriptive-branch-name>
+  git checkout master  # Asegúrate de estar en la rama master
+  git checkout -b <issueNumber-nombre-descriptivo-de-la-rama>
   ```
 
-  Make sure to replace `<issueNumber-descriptive-branch-name>` with your actual branch name, without the angle brackets (`<` and `>`).
+  Asegúrate de reemplazar `<issueNumber-nombre-descriptivo-de-la-rama>` con el nombre real de tu rama, sin los signos de menor (`<`) y mayor (`>`).
 
-More documentation on `git checkout` can be found [here](https://git-scm.com/docs/git-checkout).
+Más documentación sobre `git checkout` se puede encontrar [aquí](https://git-scm.com/docs/git-checkout).
 
-Now you can go and make the proposed changes to your local files using any text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php ) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage. In the future, we recommend you use  [Visual Studio Code](https://code.visualstudio.com/) for Planet, VIM for treehouse, and [Android Studio](https://developer.android.com/studio) for Android development.
+Ahora puedes ir y hacer los cambios propuestos en tus archivos locales usando cualquier editor de texto que prefieras. También puedes usar VIM o Nano para editar archivos desde la terminal. [Esta guía sobre VIM](https://www.vim.org/docs.php) y [esta guía sobre Nano](https://www.nano-editor.org/docs.php) contienen más información sobre su uso adecuado. En el futuro, te recomendamos usar [Visual Studio Code](https://code.visualstudio.com/) para Planet, VIM para treehouse, y [Android Studio](https://developer.android.com/studio) para el desarrollo de Android.
 
-NOTE: Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git checkout <branch-name>` while making proposed changes to your local files and while committing.
+NOTA: Usa `git branch` para ver en qué rama estás. Tu rama `master` es la rama base de trabajo. Debe permanecer intacta por si necesitas revertir algunos cambios a una versión funcional. Asegúrate de estar en la rama correcta usando `git checkout <nombre-de-la-rama>` mientras haces los cambios propuestos en tus archivos locales y mientras haces commits.
 
-If you're still confused, that's quite alright. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) can be quite challenging at first. See the diagram below. For better context, the new branch you just made is inside your "Forked GitHub IO".
+Si todavía estás confundido, está bien. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) puede ser bastante desafiante al principio. Consulta el diagrama a continuación. Para un mejor contexto, la nueva rama que acabas de crear está dentro de tu "Forked GitHub IO".
 
-![GitHub Repo Flowchart](image/mi-repo-flowchart.png)
+![Diagrama del flujo del repositorio en GitHub](image/mi-repo-flowchart.png)
 
-### 5.1. Preview Changes Locally
+### 5.1. Vista Previa de Cambios Locales
 
-After making modifications to your local files and before making a commit, you may want to preview the changes locally. To quickly set up a local HTTP server, you can follow [MDwiki's guide here](https://dynalon.github.io/mdwiki/#!./faq.md#Q:_I_don't_want_to_install_nginx_or_apache_locally._What_is_the_fastest/easiest_way_to_setup_a_local_HTTP_server_to_get_started_with_MDwiki_?). However, instead of using the outdated Python method mentioned in the guide, you can use the following command: `python3 -m http.server 8080`.
+Después de hacer modificaciones en tus archivos locales y antes de hacer un commit, es posible que quieras previsualizar los cambios localmente. Para configurar rápidamente un servidor HTTP local, puedes seguir [la guía de MDwiki aquí](https://dynalon.github.io/mdwiki/#!./faq.md#Q:_I_don't_want_to_install_nginx_or_apache_locally._What_is_the_fastest/easiest_way_to_setup_a_local_HTTP_server_to_get_started_with_MDwiki_?). Sin embargo, en lugar de usar el método obsoleto de Python mencionado en la guía, puedes usar el siguiente comando: `python3 -m http.server 8080`.
 
-## 6. Create a Commit and Push the Changes
+## 6. Crear un Commit y Empujar los Cambios
 
-**NOTE**: Before making your commit, configure the email address you associate with your Git commits by following the instructions in [Setting your commit email address in Git - GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
+**NOTA**: Antes de hacer tu commit, configura la dirección de correo electrónico que asocias con tus commits de Git siguiendo las instrucciones en [Configurar tu dirección de correo electrónico en Git - GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
 
-Use the following commands to commit and push your changes:
+Usa los siguientes comandos para hacer commit y empujar tus cambios:
 
-1. Check which files in the working directory have been modified:
+1. Verifica qué archivos en el directorio de trabajo han sido modificados:
 
    ```sh
    git status
    ```
 
-2. Display file(s) changes:
-   - To show specific file(s) change:
+2. Muestra los cambios en los archivos:
+   - Para mostrar los cambios en archivos específicos:
 
      ```sh
-     git diff <file1> <file2> <file3>...
+     git diff <archivo1> <archivo2> <archivo3>...
      ```
 
-   - To show all file(s) change:
+   - Para mostrar todos los cambios en los archivos:
 
      ```sh
      git diff
 
      ```
 
-   Verify the changes you made, then proceed to the next step. To understand `git diff` output, checkout [Git Diff | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/git-diff).
+   Verifica los cambios que has hecho, luego procede al siguiente paso.Claro, aquí está la continuación:
 
-3. Stage the modified files:
-   - To stage specific modified files:
+```
+   Para entender la salida de `git diff`, consulta [Git Diff | Tutorial de Atlassian Git](https://www.atlassian.com/git/tutorials/saving-changes/git-diff).
+
+3. Prepara los archivos modificados:
+   - Para preparar archivos modificados específicos:
 
      ```sh
-     git add <file1> <file2> <file3>...
+     git add <archivo1> <archivo2> <archivo3>...
      ```
 
-   - To stage **all** modified files show up in `git status`:
-     - **Caution:** Before using this, double-check the modified files listed in the previous step to ensure you are not inadvertently staging unwanted changes.
+   - Para preparar **todos** los archivos modificados que aparecen en `git status`:
+     - **Precaución:** Antes de usar esto, revisa los archivos modificados listados en el paso anterior para asegurarte de no estar preparando cambios no deseados.
 
      ```sh
      git add .
      ```
 
-4. Commit the staged changes with a descriptive message:
+4. Haz commit de los cambios preparados con un mensaje descriptivo:
 
    ```sh
-   git commit -m "<your_commit_message>"
+   git commit -m "<tu_mensaje_de_commit>"
    ```
 
-   (Refer to the commit message guidelines below).
+   (Consulta las directrices para mensajes de commit más abajo).
 
-5. Push the changes to your new branch on GitHub:
+5. Empuja los cambios a tu nueva rama en GitHub:
 
    ```sh
-   git push -u origin <issueNumber-descriptive-branch-name>
+   git push -u origin <issueNumber-nombre-descriptivo-de-la-rama>
    ```
 
-   For any further commits on the same branch after the first one, you can simply use:
+   Para cualquier commit adicional en la misma rama después del primero, simplemente usa:
 
    ```sh
    git push
    ```
 
-**HINT**: If you feel like you've messed something up with Git commands, check out [Dangit, Git!?!
-](https://dangitgit.com/) for common mistakes and their fixes.
+**SUGERENCIA**: Si sientes que has cometido algún error con los comandos de Git, consulta [Dangit, Git!?](https://dangitgit.com/) para errores comunes y sus soluciones.
 
-### 6.1. Commit Message Style Guide
+### 6.1. Guía de Estilo para Mensajes de Commit
 
-Because the commits you will be making on this markdown wiki are fairly basic, it is not necessary to enforce a wordy commit style. However, in the future, when you start to work on more complex projects, it is helpful to write your commit messages in a certain way. Here is an article on [how to write good commit messages](https://chris.beams.io/posts/git-commit/).
+Dado que los commits que harás en este wiki markdown son bastante básicos, no es necesario imponer un estilo de commit detallado. Sin embargo, en el futuro, cuando empieces a trabajar en proyectos más complejos, es útil escribir tus mensajes de commit de una manera determinada. Aquí hay un artículo sobre [cómo escribir buenos mensajes de commit](https://chris.beams.io/posts/git-commit/).
 
-For edits to this markdown wiki, we recommend that your commit messages only consist of the subject line (refer to the article for more on what the subject is).
+Para ediciones en este wiki markdown, recomendamos que tus mensajes de commit consistan solo en la línea de asunto (consulta el artículo para más detalles sobre el asunto).
 
-- Limit the subject line to 50 characters
-- Do not end the subject line with a period
-- Use the imperative mood in the subject line
+- Limita la línea de asunto a 50 caracteres
+- No termines la línea de asunto con un punto
+- Usa el modo imperativo en la línea de asunto
 
-Here is an example of how you would write your commit message:
-`$ git commit -m "add commit message style guide and add raw.githack section (fixes #841)"`
+Aquí tienes un ejemplo de cómo escribir tu mensaje de commit:
+`$ git commit -m "agregar guía de estilo para mensajes de commit y añadir sección raw.githack (soluciona #841)"`
 
-**HINT**: In your commit message, if you add a keyword like "fixes" or "resolves" followed by "#" and the issue number, once your pull request is merged, the issue will automatically be closed. This is helpful because it helps declutter the issues section. See more [here](https://help.github.com/articles/closing-issues-using-keywords/).
+**SUGERENCIA**: En tu mensaje de commit, si agregas una palabra clave como "fixes" o "resolves" seguida de "#" y el número del issue, una vez que tu pull request sea fusionado, el issue se cerrará automáticamente. Esto es útil porque ayuda a limpiar la sección de issues. Consulta más [aquí](https://help.github.com/articles/closing-issues-using-keywords/).
 
 ### 6.2. Raw.githack
 
-Raw.githack is an important aspect of the pull request process. After you commit changes to your local branch and push them to your remote branch, you can view these changes by going to `https://raw.githack.com/<YourUserName>/<YourUserName>.github.io/<YourBranchName>/index.html#!pages/mi/mi-10-steps.md` and navigating to the page(s) you have changed. If everything looks correct, you are ready to create a pull request.
+Raw.githack es un aspecto importante del proceso de pull request. Después de que hagas commits en tu rama local y los empujes a tu rama remota, puedes ver estos cambios yendo a `https://raw.githack.com/<TuUsuario>/<TuUsuario>.github.io/<TuNombreDeRama>/index.html#!pages/mi/mi-10-steps.md` y navegando a la(s) página(s) que has cambiado. Si todo parece correcto, estás listo para crear un pull request.
 
-For example, [https://raw.githack.com/xyb994/xyb994.github.io/add-xyb994-profile/index.html#!pages/mi/mi-10-steps.md](https://raw.githack.com/xyb994/xyb994.github.io/add-xyb994-profile/index.html#!pages/mi/mi-10-steps.md) will land in the First Steps – Mobile Virtual Intern's main page:
+Por ejemplo, [https://raw.githack.com/xyb994/xyb994.github.io/add-xyb994-profile/index.html#!pages/mi/mi-10-steps.md](https://raw.githack.com/xyb994/xyb994.github.io/add-xyb994-profile/index.html#!pages/mi/mi-10-steps.md) llevará a la página principal de Primeros Pasos – Interno Virtual Móvil:
 
-![mi first steps main page with raw.githack link](image/mi-raw-githack-first-steps-main-page.png)
+![Página principal de los Primeros Pasos con enlace raw.githack](image/mi-raw-githack-first-steps-main-page.png)
 
-Raw.githack makes it easy to see what the page will look like if your branch is merged, so don't forget to include a raw.githack link in your next step, the pull request.
+Raw.githack facilita ver cómo se verá la página si tu rama se fusiona, así que no olvides incluir un enlace raw.githack en tu próximo paso, el pull request.
 
-## 7. Create a Pull Request & Delete Your Branch After Merging
+## 7. Crear un Pull Request y Eliminar tu Rama Después de Fusionar
 
-Now follow the instructions on [Creating a Pull Request and Deleting a Branch Tutorial](mi-github-pull-request.md) to create your pull request.
+Ahora sigue las instrucciones en [Tutorial de Creación de un Pull Request y Eliminación de una Rama](mi-github-pull-request.md) para crear tu pull request.
 
-Be aware that a staff member may either submit a code review asking you to modify some of your changes, or accept the pull request and close the issue. You can see the process [here](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues/15).
+Ten en cuenta que un miembro del personal puede solicitar una revisión de código pidiéndote que modifiques algunos de tus cambios, o aceptar el pull request y cerrar el issue. Puedes ver el proceso [aquí](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues/15).
 
-NOTE: Remember to always sync your fork before starting to work on a new issue. To sync your fork you can follow the process in the [previous step](mi-github-and-repositories.md#Summary_of_Steps).
+NOTA: Recuerda siempre sincronizar tu fork antes de comenzar a trabajar en un nuevo issue. Para sincronizar tu fork, puedes seguir el proceso en el [paso anterior](mi-github-and-repositories.md#Resumen_de_Pasos).
 
-This is an exercise to help you familiarize yourself with GitHub issues, committing, and creating pull requests. This is a common process in large open source projects as there is always room for improvement. So, we strongly encourage you to follow this process and continue to post issues and resolve them.
+Este es un ejercicio para ayudarte a familiarizarte con los issues en GitHub, hacer commits y crear pull requests. Este es un proceso común en grandes proyectos de código abierto, ya que siempre hay margen para mejorar. Por lo tanto, te animamos a seguir este proceso y continuar publicando issues y resolviéndolos.
 
-## 8. Comment on an Existing Issue
+## 8. Comentar en un Issue Existente
 
-You will need to make **at least one comment** on an issue you did **not** create.
+Necesitarás hacer **al menos un comentario** en un issue que **no** hayas creado.
 
-- Navigate to the [open-learning-exchange/open-learning-exchange.github.io repository's Issues tab](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues).
-- Browse some recent issues and leave a comment on those where you can provide *meaningful and useful feedback*.
-- Under "Add a comment", write your comment with Markdown syntax if necessary, click on the "Preview" tab to review, and click the "Comment" button.
+- Navega a la [pestaña de Issues del repositorio open-learning-exchange/open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues).
+- Revisa algunos issues recientes y deja un comentario en aquellos donde puedas proporcionar *comentarios significativos y útiles*.
+- En "Add a comment", escribe tu comentario con la sintaxis Markdown si es necesario, haz clic en la pestaña "Preview" para revisar y haz clic en el botón "Comment".
 
-## 9. Useful Links
+## 9. Enlaces Útiles
 
-- [Quickstart for GitHub Issues | GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
-- [FAQ - Helpful Links and Videos](mi-faq.md#Helpful_Links)
-- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [Guía Rápida para Issues en GitHub | GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
+- [FAQ - Enlaces y Videos Útiles](mi-faq.md#Helpful_Links)
+- [Cómo Contribuir al Código Abierto](https://opensource.guide/how-to-contribute/)
 
-#### Return to [First Steps](mi-10-steps.md#Step_6_-_GitHub_Issues_Tutorial)
+#### Regresar a [Primeros Pasos](mi-10-steps.md#Paso_6_-_Tutorial_de_Issues_en_GitHub)
