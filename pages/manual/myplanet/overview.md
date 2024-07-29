@@ -1,65 +1,65 @@
-**NOTE**: This page is a work in progress.
+**NOTA**: Esta página está en desarrollo.
 
 # myPlanet
 
-## Introduction
+## Introducción
 
-myPlanet is a mobile application that serves as an offline version of the Planet learning system. It allows users to access the learning resources, such as books, videos, and learning games, provided by the Planet server. With myPlanet, users can have an offline learning experience and access the extensive library of learning materials without the need for internet connectivity.
+myPlanet es una aplicación móvil que sirve como una versión offline del sistema de aprendizaje Planet. Permite a los usuarios acceder a los recursos de aprendizaje, tales como libros, videos y juegos educativos, proporcionados por el servidor Planet. Con myPlanet, los usuarios pueden tener una experiencia de aprendizaje offline y acceder a la amplia biblioteca de materiales de aprendizaje sin necesidad de conectividad a internet.
 
-The mobile app acts as a bridge between the user's device and the Planet server, enabling the synchronization of data. It allows learners to download selected collections of learning resources from the server and store them locally on their mobile devices. This personalized approach to learning ensures that learners can access the materials that are most relevant to their needs and interests.
+La aplicación móvil actúa como un puente entre el dispositivo del usuario y el servidor Planet, permitiendo la sincronización de datos. Permite a los estudiantes descargar colecciones seleccionadas de recursos de aprendizaje del servidor y almacenarlas localmente en sus dispositivos móviles. Este enfoque personalizado del aprendizaje asegura que los estudiantes puedan acceder a los materiales más relevantes para sus necesidades e intereses.
 
-Additionally, myPlanet provides software tools for content and learner management, learner evaluation and monitoring, and course creation. Learners can manage their learning progress, track their performance, and engage with interactive learning activities through the mobile app. The app also supports frequent assessments and provides usage feedback metrics, making it a valuable tool for learners, coaches, and administrators.
+Además, myPlanet proporciona herramientas de software para la gestión de contenido y de estudiantes, la evaluación y el monitoreo de estudiantes, y la creación de cursos. Los estudiantes pueden gestionar su progreso de aprendizaje, rastrear su desempeño y participar en actividades de aprendizaje interactivas a través de la aplicación móvil. La aplicación también soporta evaluaciones frecuentes y proporciona métricas de retroalimentación de uso, convirtiéndola en una herramienta valiosa para estudiantes, instructores y administradores.
 
-By leveraging the capabilities of myPlanet, learners can access the vast repository of learning resources from the Planet system anytime and anywhere, even in remote locations with unreliable or no internet connectivity. The mobile app enhances the accessibility and usability of the Planet learning system, providing an inclusive and seamless learning experience for users of all ages and levels of expertise.
+Aprovechando las capacidades de myPlanet, los estudiantes pueden acceder al vasto repositorio de recursos de aprendizaje del sistema Planet en cualquier momento y lugar, incluso en ubicaciones remotas con conectividad a internet inestable o inexistente. La aplicación móvil mejora la accesibilidad y usabilidad del sistema de aprendizaje Planet, proporcionando una experiencia de aprendizaje inclusiva y fluida para usuarios de todas las edades y niveles de experiencia.
 
-## Download
+## Descargar
 
-- [Google Play Store](https://play.google.com/store/apps/details?id=org.ole.planet.myplanet)
-- [Latest development build](https://github.com/open-learning-exchange/myplanet/releases/latest)
+- [Google Play](https://play.google.com/store/apps/details?id=org.ole.planet.myplanet&hl=es_GL)
+- [Última versión de desarrollo](https://github.com/open-learning-exchange/myplanet/releases/latest)
 
-## Configuration and Syncing
+## Configuración y Sincronización
 
-Click the settings gear icon in the upper-right corner to open the settings dialog box.
+Haga clic en el icono de engranaje en la esquina superior derecha para abrir el cuadro de diálogo de configuración.
 
-- For manual configuration:
-  - Toggle on "manual" configuration
-  - Select "https"
-  - Enter the "planet ip" obtained from your admin
-  - Enter the "server pin" obtained from your admin
-  - Click "SYNC" and allow the synchronization process to complete
+- Para configuración manual:
+  - Active la configuración "manual"
+  - Seleccione "https"
+  - Ingrese la "IP de planet" obtenida de su administrador
+  - Ingrese el "PIN del servidor" obtenido de su administrador
+  - Haga clic en "SYNC" y permita que se complete el proceso de sincronización
 
-## Sign In / Become a Member
-
-
-## Library
+## Iniciar Sesión / Convertirse en Miembro
 
 
-## Courses
+## Biblioteca
 
 
-## Exams
+## Cursos
 
 
-## Surveys
+## Exámenes
 
 
-## Teams
+## Encuestas
 
 
-## Enterprises
+## Equipos
 
 
-## News
+## Empresas
 
 
-## AI Chat
+## Noticias
 
 
-## Achivements
+## Chat de IA
 
 
-## Feedback
+## Logros
 
 
-## Manager
+## Retroalimentación
+
+
+## Administrador
 
