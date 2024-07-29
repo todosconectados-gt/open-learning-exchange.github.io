@@ -1,10 +1,10 @@
-# Tracking Progress
+# Seguimiento del Progreso
 
-## Directions
+## Instrucciones
 
- * Click on the blue "Get PRs/Issues Count" button below.
- * Type in a valid GitHub username
- * Remember, in order to complete the First Steps, you need at least 5 valid PRs and 4 issues.
+ * Haz clic en el botón azul "Obtener Conteo de PRs/Issues" a continuación.
+ * Escribe un nombre de usuario de GitHub válido.
+ * Recuerda, para completar los Primeros Pasos, necesitas al menos 5 PRs válidos y 4 issues.
 
 <style><!--
     .dropbtn {
