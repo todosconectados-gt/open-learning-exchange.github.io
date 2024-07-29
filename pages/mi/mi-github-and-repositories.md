@@ -174,3 +174,36 @@ El **repositorio upstream** es al que estamos contribuyendo.
 
 1. `git fetch upstream` - para obtener ramas del repositorio upstream ([más info](https://git-scm.com/docs/git-fetch))
 2. `git checkout master` - para cambiar a la rama `master` ([más info](https://git-scm.com/docs/git-checkout))
+3. `git show-branch` - para ver ramas y los cambios realizados en ellas ([más info](https://git-scm.com/docs/git-show-branch))
+4. `git merge upstream/master` - Tu repositorio ahora debería estar sincronizado con upstream/master ([más info](https://git-scm.com/docs/git-merge))
+
+#### Asegúrate de que tu repositorio esté actualizado
+
+1. `git diff` - para comparar diferentes versiones del mismo archivo ([más info](https://git-scm.com/docs/git-diff))
+2. `git status` - para ver los cambios realizados en la rama, si la rama está actualizada con master ([más info](https://git-scm.com/docs/git-status))
+3. `git pull` - para sincronizar el repositorio local con el repositorio remoto ([más info](https://git-scm.com/docs/git-pull))
+4. `git push` - para empujar las actualizaciones que realizaste en los repositorios locales a los repositorios en GitHub ([más info](https://git-scm.com/docs/git-push))
+
+**NOTA**: Los desarrolladores deben sincronizar siempre su fork y asegurarse de que sus repositorios estén actualizados con GitHub cada vez que comiencen a trabajar. De esta manera, como equipo, podemos minimizar la pérdida de datos y ahorrar tiempo.
+
+#### Si te encuentras necesitando rebasar tu repositorio fork, los siguientes dos enlaces deberían ayudarte
+
+- [Rebase](https://git-scm.com/docs/git-rebase)
+- [Ramas y Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+
+**NOTA**: Aunque rebase y merge son similares, hay una diferencia entre ellos. El merge toma todos los cambios en una rama y los fusiona en otra rama en un solo commit. El rebase mueve el punto de partida de la rama a otro lugar. Por ejemplo, si rebasas tu rama a la rama master, entonces tu rama ahora incorpora todos los cambios realizados en master, y cada vez que master cambia, tu rama también cambia. En contraste, el merge es un cambio único.
+
+Para más información sobre las diferencias entre merging y rebasing (y cuándo usar cada uno), [consulta esto](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+Si deseas comprender cómo funciona la sincronización con el fork, aquí hay un útil [video](https://www.youtube.com/watch?v=-zvHQXnBO6c)
+
+## Enlaces Útiles
+
+- [Configurar un repositorio remoto para un fork | GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork) - Puedes sincronizar los cambios realizados en el repositorio original con un fork.
+- [Sincronizando un fork | GitHub Docs](https://help.github.com/articles/syncing-a-fork/) - Sincroniza un fork de un repositorio para mantenerlo actualizado con el repositorio upstream.
+- [Tutorial de GitHub](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) - Una introducción a Git y GitHub para principiantes de HubSpot.
+- [Git-it Workshop](http://jlord.us/git-it/) - Se ejecuta en tu terminal para trabajar y proporciona un enfoque práctico para aprender Git y los repositorios de GitHub.
+- [Ayuda de Git](https://git-scm.com/) - Una enciclopedia de flujos de trabajo útiles de git y explicaciones de la terminología.
+- [Otros enlaces y videos útiles](mi-faq.md#Helpful_Links)
+
+#### Regresar a [Primeros Pasos](mi-10-steps.md#Step_5_-_Git_Repositories:_A_Guide_to_Cloning,_Configuring,_and_Syncing_Forks)
