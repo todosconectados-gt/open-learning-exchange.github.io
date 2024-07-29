@@ -97,7 +97,7 @@ Sigue las instrucciones en [Repositorios de Git: Una Guía para Clonar, Configur
 - Ningún issue es demasiado grande o pequeño para ser presentado, y está bien si no sabes cómo solucionarlo por ti mismo. Si sabes cómo resolver un issue, asegúrate de proporcionar una descripción detallada de tu investigación y muestra cómo solucionarlo. Está bien presentar un issue sobre errores menores y cambios muy pequeños, pero no hagas que este sea el caso para todos los issues que presentes.
 - También puedes trabajar en issues que no hayas creado. Asegúrate de haber creado al menos un issue, resuelto, comentado en un issue que no creaste y haber realizado un pull request con la solución que fue aceptada.
 
-**HINWEIS**: Puedes seguir tu progreso con el número de pull requests y issues [aquí](../track-first-steps-progress.md).
+**HINT**: Puedes seguir tu progreso con el número de pull requests y issues [aquí](../track-first-steps-progress.md).
 
 ## Paso 7 - Tomar un Curso en myPlanet, Jardinería de Cursos
 
@@ -133,7 +133,7 @@ Una vez que completes el Paso 8 tendrás:
 - 4 comentarios hechos en issues que no creaste (uno en el paso 6 y tres en el paso 8)
 - 4 issues creados (uno en el paso 6 y tres en el paso 8)
 
-**HINWEIS**: Puedes seguir tu progreso con el número de pull requests y issues [aquí](../track-first-steps-progress.md).
+**HINT**: Puedes seguir tu progreso con el número de pull requests y issues [aquí](../track-first-steps-progress.md).
 
 ## Paso 9 - Ser parte del equipo
 
