@@ -2,7 +2,7 @@
 
 ### Before Creating the Pull Request
 
-- [ ] Verify the changes are on a new branch other than `master` – it should say "compare: branch-name".
+- [ ] Verify the changes are on a new branch other than `todos` – it should say "compare: branch-name".
 - [ ] Start the pull request title with lowercase letters, e.g., `add githubusername.md`.
 - [ ] Add issue number to the end of the pull request title when applicable, e.g., `update mi-faq.md (fixes #3264)`.
 
@@ -21,4 +21,8 @@ fixes #
 
 
 ### Raw.Githack Preview Link
-<!-- Provide the raw.githack link to the page(s) changed. Example: https://raw.githack.com/nhk057/nhk057.github.io/add-nhk057-profile/index.html#!pages/mi/profiles/nhk057.md -->
+<!-- Provide the raw.githack link to the page(s) changed. Example:
+
+https://raw.githack.com/nhk057/nhk057.github.io/add-nhk057-profile/index.html#!pages/mi/profiles/nhk057.md
+
+-->
