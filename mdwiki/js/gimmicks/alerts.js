@@ -35,9 +35,9 @@
 
     // picks out the paragraphs that start with a trigger word
     function select_paragraphs() {
-        var note = ['note', 'beachte', 'nota' ];
+        var note = ['note', 'beachte' ];
         var warning = [ 'achtung', 'attention', 'warnung', 'warning', 'atención', 'guarda', 'advertimiento' ];
-        var hint = ['hint', 'tipp', 'tip', 'hinweis', 'sugerencia'];
+        var hint = ['hint', 'tipp', 'tip', 'hinweis'];
         var exp = note.concat(warning);
         exp = exp.concat(hint);
         var matches = [];
