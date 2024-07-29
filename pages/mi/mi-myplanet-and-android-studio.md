@@ -1,50 +1,49 @@
-# Step 3 - myPlanet and Android Studio
+# Paso 3 - myPlanet y Android Studio
 
-## Preparation
+## Preparación
 
-Follow [Cloning a repository - GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to clone [OLE's myPlanet repository](https://github.com/open-learning-exchange/myplanet) onto your local machine.
+Sigue [Clonar un repositorio - GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) para clonar el [repositorio de myPlanet de OLE](https://github.com/open-learning-exchange/myplanet) en tu máquina local.
 
-## 1. Download and Open Android Studio
+## 1. Descargar y Abrir Android Studio
 
-- If you already have Android Studio installed, ensure it's up-to-date.
-- If not, visit [Install Android Studio | Android Developers](https://developer.android.com/studio/install) and follow the provided steps to install Android Studio.
-- Launch Android Studio on your computer. If this is your first time using Android Studio, it may take a moment to set up the initial configuration.
+- Si ya tienes Android Studio instalado, asegúrate de que esté actualizado.
+- Si no, visita [Instalar Android Studio | Android Developers](https://developer.android.com/studio/install) y sigue los pasos proporcionados para instalar Android Studio.
+- Inicia Android Studio en tu computadora. Si es la primera vez que usas Android Studio, puede que tarde un momento en configurar la configuración inicial.
 
-## 2. Open the Project
+## 2. Abrir el Proyecto
 
-- On the welcome screen, click the "Open" button. Alternatively, if you have a project already open, you can navigate to "File" > "Open..." from the top menu bar.
-- A file dialog box will appear. Navigate to the location where your project's repository folder is located.
+- En la pantalla de bienvenida, haz clic en el botón "Open". Alternativamente, si ya tienes un proyecto abierto, puedes ir a "File" > "Open..." desde la barra de menú superior.
+- Aparecerá un cuadro de diálogo de archivos. Navega a la ubicación donde está la carpeta del repositorio de tu proyecto.
 
-## 3. Gradle Build
+## 3. Construcción de Gradle
 
-After importing the project, Android Studio will perform a Gradle build, which may take a few moments. Gradle is the build system for Android projects, and it will download any necessary dependencies for the project.
+Después de importar el proyecto, Android Studio realizará una construcción de Gradle, lo cual puede tardar unos momentos. Gradle es el sistema de construcción para proyectos de Android y descargará cualquier dependencia necesaria para el proyecto.
 
-## 4. Configure Emulator
+## 4. Configurar el Emulador
 
-To avoid overriding the app on your physical device and to ensure crash reports are sent, we need to set up an Android emulator for this step. Open 'Tools' > 'Device Manager.'   
+Para evitar sobrescribir la aplicación en tu dispositivo físico y para asegurar que se envíen los informes de fallos, necesitamos configurar un emulador de Android para este paso. Abre 'Tools' > 'Device Manager.'
 ![Device Manager](image/mi-device-manager-location.png)
 
-Click the + icon to create a new virtual device. You should see this pop up:
+Haz clic en el icono + para crear un nuevo dispositivo virtual. Deberías ver este cuadro emergente:
 ![Virtual Device](image/mi-virtual-device-configuration.png)
 
-Follow the prompts to select a hardware, click next and choose a system image. Continue and finish configurations. You may change the device name if you'd like.
+Sigue las instrucciones para seleccionar un hardware, haz clic en siguiente y elige una imagen del sistema. Continúa y finaliza la configuración. Puedes cambiar el nombre del dispositivo si lo deseas.
 
+## 5. Seleccionar Configuración de Ejecución
 
-## 5. Select Run Configuration
-
-In Android Studio's toolbar, select the desired run configuration from the drop-down menu. It would be `app` in our case.
+En la barra de herramientas de Android Studio, selecciona la configuración de ejecución deseada del menú desplegable. En nuestro caso sería `app`.
 ![Run Configuration](image/mi-app-run-configuration.png)
 
-## 6. Run the App
+## 6. Ejecutar la Aplicación
 
-Click the green "Run" button to install and launch the app on the emulator.
+Haz clic en el botón verde "Run" para instalar y lanzar la aplicación en el emulador.
 
-## 7. App Launch
+## 7. Lanzamiento de la Aplicación
 
-After installing the app on your emulator, it will launch automatically. Approve any permission requests to continue. Once the app is running, take a screenshot from your emulator and share it in the Discord channel to let us know you completed step 3.
+Después de instalar la aplicación en tu emulador, se iniciará automáticamente. Acepta cualquier solicitud de permiso para continuar. Una vez que la aplicación esté en funcionamiento, toma una captura de pantalla desde tu emulador y compártela en el canal de Discord para hacernos saber que completaste el paso 3.
 
-## Useful Links
+## Enlaces Útiles
 
 - https://github.com/open-learning-exchange/myplanet?tab=readme-ov-file#getting-started-for-interns
 
-#### Return to [First Steps](mi-10-steps.md#Step_3_-_Build_myPlanet_in_Android_Studio)
+#### Volver a [Primeros Pasos](mi-10-steps.md#Step_3_-_Build_myPlanet_in_Android_Studio)
