@@ -1,6 +1,10 @@
 
 # Primeros Pasos – Interno Virtual Móvil
 
+**NOTA**: Este tutorial fue creado originalmente como un documento de selección e incorporación para nuestros pasantes virtuales. Luego fue traducido al español con ChatGPT. Así que habrá problemas en la redacción y es posible que parte del contenido no sea lo suficientemente detallado. Por favor, no dudes en chatear con nosotros en Discord para obtener ayuda durante el proceso.
+
+Por favor, [crea una cuenta de Discord](https://support.discord.com/hc/es/articles/360033931551-Primeros-pasos#h_01H4RR2GE2FAK7DZ5W3765NGVT) en https://discord.com/register. Luego, únete a nuestro servidor de Discord usando [este enlace](https://discord.gg/HwpHmJpxQk). Utilizarás el canal #rincónLagrange para comunicarte con nosotros durante todo el proceso.
+
 ## La Visión General
 
 ¡Bienvenido a los primeros pasos para convertirte en un Interno Virtual Móvil de OLE! Tratamos estos primeros pasos como un proceso de selección para demostrar que puedes seguir instrucciones básicas antes de pasar a proyectos más complejos y equipos más grandes. Piensa en esto como la entrevista para la pasantía.
