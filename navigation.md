@@ -8,7 +8,6 @@
 
 [Manual]() <!-- System Manual -->
 
-  * [Manual de Usuario de Planet](pages/manual/planet/overview.md)
   * [Manual de Usuario de myPlanet](pages/manual/myplanet/overview.md)
 
 [Internos Móviles]() <!-- myPlanet Intern Program -->
