@@ -74,7 +74,7 @@ Después de hacer fork del repositorio, serás redirigido a tu copia personal de
 
 Después de renombrar tu repositorio, visita `https://<TuNombreDeUsuario>.github.io` para verificar si tu sitio está activo.
 
-Si ves un error "404 Page Not Found", no te preocupes. Puede que tarde un tiempo en que tu sitio de GitHub Pages se construya y se vuelva accesible. Para asegurarte de que esté configurado correctamente, ve a **Configuración > Pages** del repositorio y confirma que la **Fuente** esté configurada en "Deploy from a branch" y `master` `/(root)` estén seleccionados bajo **Branch**.
+Si ves un error "404 Page Not Found", no te preocupes. Puede que tarde un tiempo en que tu sitio de GitHub Pages se construya y se vuelva accesible. Para asegurarte de que esté configurado correctamente, ve a **Configuración > Pages** del repositorio y confirma que la **Fuente** esté configurada en "Deploy from a branch" y `todos` `/(root)` estén seleccionados bajo **Branch**.
 
 ### 3.4 Crea un nuevo archivo como tu página personal de MDwiki y realiza tus commits
 
@@ -82,9 +82,9 @@ Antes de editar, asegúrate de que estás trabajando en tu propio repositorio de
 
 #### 3.4.1 Crea una nueva rama
 
-1. **Cambia a la Rama Master**: Haz clic en el selector de ramas en la esquina superior izquierda de tu repositorio. Si no dice "**master**", cambia a la rama master.
+1. **Cambia a la Rama todos**: Haz clic en el selector de ramas en la esquina superior izquierda de tu repositorio. Si no dice "**todos**", cambia a la rama todos.
 2. **Nombra la Nueva Rama**: Haz clic en el selector de ramas nuevamente, luego escribe un nombre descriptivo como `add-<TuNombreDeUsuario>-profile`. Para mejores prácticas en nombramiento de ramas, consulta esta [guía](https://github.com/agis/git-style-guide#branches).
-3. **Confirma la Creación de la Nueva Rama**: Haz clic en "Crear rama **add-&lt;TuNombreDeUsuario&gt;-profile** desde **master**." Ahora deberías ver "**add-&lt;TuNombreDeUsuario&gt;-profile**" como tu rama actual.
+3. **Confirma la Creación de la Nueva Rama**: Haz clic en "Crear rama **add-&lt;TuNombreDeUsuario&gt;-profile** desde **todos**." Ahora deberías ver "**add-&lt;TuNombreDeUsuario&gt;-profile**" como tu rama actual.
 
   ![Nueva Rama](image/mi-new-branch.png)
 

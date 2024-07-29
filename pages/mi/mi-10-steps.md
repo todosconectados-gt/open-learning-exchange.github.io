@@ -115,7 +115,7 @@ En este paso, tu objetivo es crear, comentar y resolver issues en GitHub para me
 
 2. **Comentar en Issues**: Proporciona comentarios útiles en al menos 3 issues existentes que no creaste. Esto podría ser para dar retroalimentación, sugerir soluciones, hacer preguntas o aclarar el issue.
 
-3. **Resolver Issues con Pull Requests**: Resuelve los 3 issues haciendo los cambios necesarios en ramas separadas derivadas de `master` en tu repositorio, y envía un pull request distinto para cada uno.
+3. **Resolver Issues con Pull Requests**: Resuelve los 3 issues haciendo los cambios necesarios en ramas separadas derivadas de `todos` en tu repositorio, y envía un pull request distinto para cada uno.
 
 Sigue el **mismo proceso** descrito en el paso [GitHub Issues](mi-github-issues.md), trabajando para mejorar nuestra documentación para futuros internos. Para que tus pull requests sean aceptados, deben ser aprobados por al menos otros dos miembros/equipos de OLE. Después de crear un pull request, anúncialo en el chat de Discord para solicitar revisiones. Es posible que necesites hacer correcciones adicionales basadas en los comentarios.
 

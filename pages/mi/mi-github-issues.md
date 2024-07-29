@@ -45,22 +45,22 @@ Antes de crear tu rama, sincroniza tu repositorio con los siguientes comandos (c
    git fetch upstream
    ```
 
-2. Cambia a tu rama `master`:
+2. Cambia a tu rama `todos`:
 
    ```sh
-   git checkout master
+   git checkout todos
    ```
 
-3. Fusiona los cambios obtenidos de la rama `master` del repositorio principal en tu rama `master` local:
+3. Fusiona los cambios obtenidos de la rama `todos` del repositorio principal en tu rama `todos` local:
 
    ```sh
-   git merge upstream/master
+   git merge upstream/todos
    ```
 
-4. Empuja la rama `master` actualizada a tu repositorio bifurcado en GitHub:
+4. Empuja la rama `todos` actualizada a tu repositorio bifurcado en GitHub:
 
    ```sh
-   git push origin master
+   git push origin todos
    ```
 
 **ATENCIÓN**: De ahora en adelante, para el resto de los Primeros Pasos, por favor usa la línea de comandos para crear ramas y hacer commits en lugar de usar la interfaz web de GitHub. Esto te dará práctica valiosa con comandos comunes de Git en tu terminal, lo cual es esencial para trabajar en código real que necesita ser probado localmente y no siempre puede ser editado directamente en GitHub.com.
@@ -69,10 +69,10 @@ Antes de crear tu rama, sincroniza tu repositorio con los siguientes comandos (c
 
 **Cada vez que empieces a trabajar en un issue, necesitas crear una rama para mantener separados los issues en los que estás trabajando.** Asegúrate de usar un nombre descriptivo para tu rama de la siguiente manera: **issueNumber-nombre-descriptivo-de-la-rama**.
 
-- Para crear y cambiar a una nueva rama desde `master`, ejecuta los siguientes comandos:
+- Para crear y cambiar a una nueva rama desde `todos`, ejecuta los siguientes comandos:
 
   ```sh
-  git checkout master  # Asegúrate de estar en la rama master
+  git checkout todos  # Asegúrate de estar en la rama todos
   git checkout -b <issueNumber-nombre-descriptivo-de-la-rama>
   ```
 
@@ -82,7 +82,7 @@ Más documentación sobre `git checkout` se puede encontrar [aquí](https://git-
 
 Ahora puedes ir y hacer los cambios propuestos en tus archivos locales usando cualquier editor de texto que prefieras. También puedes usar VIM o Nano para editar archivos desde la terminal. [Esta guía sobre VIM](https://www.vim.org/docs.php) y [esta guía sobre Nano](https://www.nano-editor.org/docs.php) contienen más información sobre su uso adecuado. En el futuro, te recomendamos usar [Visual Studio Code](https://code.visualstudio.com/) para Planet, VIM para treehouse, y [Android Studio](https://developer.android.com/studio) para el desarrollo de Android.
 
-NOTA: Usa `git branch` para ver en qué rama estás. Tu rama `master` es la rama base de trabajo. Debe permanecer intacta por si necesitas revertir algunos cambios a una versión funcional. Asegúrate de estar en la rama correcta usando `git checkout <nombre-de-la-rama>` mientras haces los cambios propuestos en tus archivos locales y mientras haces commits.
+NOTA: Usa `git branch` para ver en qué rama estás. Tu rama `todos` es la rama base de trabajo. Debe permanecer intacta por si necesitas revertir algunos cambios a una versión funcional. Asegúrate de estar en la rama correcta usando `git checkout <nombre-de-la-rama>` mientras haces los cambios propuestos en tus archivos locales y mientras haces commits.
 
 Si todavía estás confundido, está bien. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) puede ser bastante desafiante al principio. Consulta el diagrama a continuación. Para un mejor contexto, la nueva rama que acabas de crear está dentro de tu "Forked GitHub IO".
 

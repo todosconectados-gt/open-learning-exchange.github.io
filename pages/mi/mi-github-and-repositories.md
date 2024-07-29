@@ -19,7 +19,7 @@ El diagrama a continuación muestra la estructura del flujo de trabajo de fork p
 
 En este paso, encontrarás algunos términos comunes, como:
 
-- `master`/`main`: nombre de la rama por defecto de un repositorio
+- `master`/`main`: nombre de la rama por defecto de un repositorio – en nuestro caso, es `todos`
 - `upstream`: el repositorio del que hiciste el fork
 - `origin`: tu propio fork del repositorio upstream
 Tanto `upstream` como `origin` se consideran **[remotos](https://git-scm.com/docs/git-remote)**. Además, recuerda que un repositorio puede contener múltiples ramas.
@@ -124,16 +124,16 @@ Para obtener actualizaciones del repositorio upstream, configúralo de la siguie
    git fetch upstream
    ```
 
-2. Cambia a la rama master de tu repositorio local:
+2. Cambia a la rama todos de tu repositorio local:
 
    ```bash
-   git checkout master
+   git checkout todos
    ```
 
-3. Combina el upstream/master con la rama actual en tu repositorio local:
+3. Combina el upstream/todos con la rama actual en tu repositorio local:
 
   ```bash
-  git merge upstream/master
+  git merge upstream/todos
   ```
 
   Si aparece el editor Vim para el mensaje de commit, usa `:wq` (**w**rite y **q**uit) para salir con el mensaje por defecto.
@@ -141,7 +141,7 @@ Para obtener actualizaciones del repositorio upstream, configúralo de la siguie
 4. Empuja las actualizaciones realizadas a tu repositorio en GitHub:
 
   ```bash
-  git push origin master
+  git push origin todos
   ```
 
 ## Resumen de Pasos
@@ -173,14 +173,14 @@ El **repositorio upstream** es al que estamos contribuyendo.
 #### Sincroniza Tu Fork
 
 1. `git fetch upstream` - para obtener ramas del repositorio upstream ([más info](https://git-scm.com/docs/git-fetch))
-2. `git checkout master` - para cambiar a la rama `master` ([más info](https://git-scm.com/docs/git-checkout))
+2. `git checkout todos` - para cambiar a la rama `todos` ([más info](https://git-scm.com/docs/git-checkout))
 3. `git show-branch` - para ver ramas y los cambios realizados en ellas ([más info](https://git-scm.com/docs/git-show-branch))
-4. `git merge upstream/master` - Tu repositorio ahora debería estar sincronizado con upstream/master ([más info](https://git-scm.com/docs/git-merge))
+4. `git merge upstream/todos` - Tu repositorio ahora debería estar sincronizado con upstream/todos ([más info](https://git-scm.com/docs/git-merge))
 
 #### Asegúrate de que tu repositorio esté actualizado
 
 1. `git diff` - para comparar diferentes versiones del mismo archivo ([más info](https://git-scm.com/docs/git-diff))
-2. `git status` - para ver los cambios realizados en la rama, si la rama está actualizada con master ([más info](https://git-scm.com/docs/git-status))
+2. `git status` - para ver los cambios realizados en la rama, si la rama está actualizada con todos ([más info](https://git-scm.com/docs/git-status))
 3. `git pull` - para sincronizar el repositorio local con el repositorio remoto ([más info](https://git-scm.com/docs/git-pull))
 4. `git push` - para empujar las actualizaciones que realizaste en los repositorios locales a los repositorios en GitHub ([más info](https://git-scm.com/docs/git-push))
 
@@ -191,7 +191,7 @@ El **repositorio upstream** es al que estamos contribuyendo.
 - [Rebase](https://git-scm.com/docs/git-rebase)
 - [Ramas y Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
-**NOTA**: Aunque rebase y merge son similares, hay una diferencia entre ellos. El merge toma todos los cambios en una rama y los fusiona en otra rama en un solo commit. El rebase mueve el punto de partida de la rama a otro lugar. Por ejemplo, si rebasas tu rama a la rama master, entonces tu rama ahora incorpora todos los cambios realizados en master, y cada vez que master cambia, tu rama también cambia. En contraste, el merge es un cambio único.
+**NOTA**: Aunque rebase y merge son similares, hay una diferencia entre ellos. El merge toma todos los cambios en una rama y los fusiona en otra rama en un solo commit. El rebase mueve el punto de partida de la rama a otro lugar. Por ejemplo, si rebasas tu rama a la rama `todos`, entonces tu rama ahora incorpora todos los cambios realizados en `todos`, y cada vez que `todos` cambia, tu rama también cambia. En contraste, el merge es un cambio único.
 
 Para más información sobre las diferencias entre merging y rebasing (y cuándo usar cada uno), [consulta esto](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
