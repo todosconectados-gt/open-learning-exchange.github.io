@@ -25,7 +25,7 @@ Antes de profundizar en GitHub, Markdown y el flujo de trabajo de forking, es cr
 
 ### 2.2 Introducción a GitHub
 
-Asegúrate de estar conectado a GitHub con tus credenciales de cuenta. Si no estás familiarizado con la interfaz y funcionalidades de GitHub, visita [nuestro repositorio](https://github.com/open-learning-exchange/open-learning-exchange.github.io) para explorar.
+Asegúrate de estar conectado a GitHub con tus credenciales de cuenta. Si no estás familiarizado con la interfaz y funcionalidades de GitHub, visita [nuestro repositorio](https://github.com/todosconectados-gt/todosconectados-gt.github.io) para explorar.
 
 **NOTA**: Confirma que tu dirección de correo electrónico para commits en GitHub está configurada correctamente. Para pasos detallados, consulta [Configuración de tu dirección de correo electrónico para commits en GitHub - GitHub Doc](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-on-github).
 
@@ -53,14 +53,14 @@ Forking crea una copia personal de un repositorio en tu cuenta de GitHub, permit
 
 Para hacer fork del repositorio correcto, sigue estos pasos:
 
-1. Visita el [repositorio github.io de OLE](https://github.com/open-learning-exchange/open-learning-exchange.github.io).
+1. Visita el [repositorio github.io de todosconectados-gt](https://github.com/todosconectados-gt/todosconectados-gt.github.io).
 2. Haz clic en el botón "Fork" en la esquina superior derecha. Si no puedes encontrarlo, consulta [Forking un repositorio - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
 
 **NOTA**: Hasta que te conviertas en un intern virtual oficial, siempre haz fork del repositorio antes de hacer cambios. Realiza tus commits en tu versión forked y envía pull requests para contribuir de vuelta al repositorio de OLE. El repositorio principal se actualizará una vez que se aprueben tus pull requests.
 
 ### 3.2 Ve a Configuración y renombra tu repositorio
 
-Después de hacer fork del repositorio, serás redirigido a tu copia personal del repositorio: **&lt;TuNombreDeUsuario&gt;/open-learning-exchange.github.io**. Para renombrar este repositorio y crear tu sitio de GitHub Pages:
+Después de hacer fork del repositorio, serás redirigido a tu copia personal del repositorio: **&lt;TuNombreDeUsuario&gt;/todosconectados-gt.github.io**. Para renombrar este repositorio y crear tu sitio de GitHub Pages:
 
 1. Haz clic en Configuración en la parte superior de la página del repositorio.
 2. En el campo de nombre del repositorio, cámbialo a `<TuNombreDeUsuario>.github.io`.
@@ -137,7 +137,7 @@ Recuerda, puede tardar un tiempo en que `https://<TuNombreDeUsuario>.github.io` 
 
 Después de recibir suficientes revisiones aprobatorias, fusionaremos tu perfil de Markdown en el repositorio principal.
 
-Después de que el pull request se fusione, podrás ver tu página personal en `open-learning-exchange.github.io/#!pages/mi/profiles/<TuNombreDeUsuario>.md`. Avísanos en el [canal del intern móvil de discord](https://discord.gg/mtgGD4EnYW) después de completar este paso.
+Después de que el pull request se fusione, podrás ver tu página personal en `todosconectados-gt.github.io/#!pages/mi/profiles/<TuNombreDeUsuario>.md`. Avísanos en el [canal del intern móvil de discord](https://discord.gg/mtgGD4EnYW) después de completar este paso.
 
 ## 4. Enlaces Útiles
 

@@ -19,9 +19,9 @@ NOTA: Los Issues no solo se tratan de agregar nuevo contenido o mejorar este MDw
 
 ## 3. Crear un Issue
 
-Si has notado un área de mejora en los Primeros Pasos para Internos Móviles, vamos a abordarlo. Si no, por favor busca un issue. Comienza revisando [los issues existentes etiquetados con `mi`, tanto abiertos como cerrados](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues?q=is%3Aissue+label%3Ami), para asegurarte de que no se haya planteado o resuelto antes. Si no se ha planteado, vamos a crear un nuevo issue:
+Si has notado un área que podría mejorarse en los Primeros Pasos para Pasantes Móviles, abordémoslo. Si no, por favor, revisa para encontrar un problema. Comienza por revisar [tanto los problemas abiertos como los cerrados existentes](https://github.com/todosconectados-gt/todosconectados-gt.github.io/issues?q=is%3Aissue), para asegurarte de que no se haya planteado o solucionado antes. Si no se ha planteado, vamos a crear un nuevo problema:
 
-- Ve a la [pestaña de Issues del repositorio principal](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues) y selecciona "New Issue". Selecciona el botón "Get started" junto a "First Steps - Mobile Virtual Intern."
+- Ve a la [pestaña de Issues del repositorio principal](https://github.com/todosconectados-gt/todosconectados-gt.github.io/issues) y selecciona "New Issue". Selecciona el botón "Get started" junto a "First Steps - Mobile Virtual Intern."
     1. Elabora un título conciso y descriptivo.
     2. Completa el template del issue de manera exhaustiva, marcando todas las casillas requeridas y proporcionando los detalles necesarios.
     3. Comparte un enlace a este issue en nuestro canal de Discord.
@@ -188,7 +188,7 @@ Raw.githack facilita ver cómo se verá la página si tu rama se fusiona, así q
 
 Ahora sigue las instrucciones en [Tutorial de Creación de un Pull Request y Eliminación de una Rama](mi-github-pull-request.md) para crear tu pull request.
 
-Ten en cuenta que un miembro del personal puede solicitar una revisión de código pidiéndote que modifiques algunos de tus cambios, o aceptar el pull request y cerrar el issue. Puedes ver el proceso [aquí](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues/15).
+Ten en cuenta que un miembro del personal puede solicitar una revisión de código pidiéndote que modifiques algunos de tus cambios, o aceptar el pull request y cerrar el issue.
 
 NOTA: Recuerda siempre sincronizar tu fork antes de comenzar a trabajar en un nuevo issue. Para sincronizar tu fork, puedes seguir el proceso en el [paso anterior](mi-github-and-repositories.md#Resumen_de_Pasos).
 
@@ -198,7 +198,7 @@ Este es un ejercicio para ayudarte a familiarizarte con los issues en GitHub, ha
 
 Necesitarás hacer **al menos un comentario** en un issue que **no** hayas creado.
 
-- Navega a la [pestaña de Issues del repositorio open-learning-exchange/open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io/issues).
+- Navega a la [pestaña de Issues del repositorio todosconectados-gt/todosconectados-gt.github.io](https://github.com/todosconectados-gt/todosconectados-gt.github.io/issues).
 - Revisa algunos issues recientes y deja un comentario en aquellos donde puedas proporcionar *comentarios significativos y útiles*.
 - En "Add a comment", escribe tu comentario con la sintaxis Markdown si es necesario, haz clic en la pestaña "Preview" para revisar y haz clic en el botón "Comment".
 

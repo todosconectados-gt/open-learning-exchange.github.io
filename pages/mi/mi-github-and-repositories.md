@@ -7,11 +7,11 @@
 
 ## Introducción
 
-En GitHub, el código de software se organiza en repositorios, cada uno representando un proyecto diferente. Por ejemplo, has estado trabajando en uno de nuestros repositorios, **open-learning-exchange.github.io**. Te animamos a explorar nuestros otros repositorios en GitHub [aquí](https://github.com/open-learning-exchange), pero recuerda: **mira, no toques**. Si eres nuevo en Git o GitHub, echa un vistazo a [esta introducción](https://www.freecodecamp.org/news/introduction-to-git-and-github/).
+En GitHub, el código de software se organiza en repositorios, cada uno representando un proyecto diferente. Por ejemplo, has estado trabajando en uno de nuestros repositorios, **todosconectados-gt.github.io**. Te animamos a explorar nuestros otros repositorios en GitHub [aquí](https://github.com/open-learning-exchange), pero recuerda: **mira, no toques**. Si eres nuevo en Git o GitHub, echa un vistazo a [esta introducción](https://www.freecodecamp.org/news/introduction-to-git-and-github/).
 
 Como se mencionó anteriormente, en el [flujo de trabajo de fork](mi-github-and-markdown.md#2.3_Introduction_to_Forking_Workflow), haces un fork de un repositorio para trabajar en él de manera independiente del repositorio principal, y luego envías tus cambios de vuelta al repositorio original mediante una solicitud de extracción (pull request). Completaste este proceso en github.com en el Paso 1. En este paso, profundizaremos y utilizaremos la línea de comandos para sincronizar tu repositorio fork con el repositorio principal de OLE.
 
-El diagrama a continuación muestra la estructura del flujo de trabajo de fork para open-learning-exchange.github.io, con un repositorio principal central, forks individuales y copias locales en tu máquina.
+El diagrama a continuación muestra la estructura del flujo de trabajo de fork para todosconectados-gt.github.io, con un repositorio principal central, forks individuales y copias locales en tu máquina.
 
 ![Relación de Repositorios](image/mi-repo-diagram.png)
 
@@ -55,11 +55,11 @@ El paso anterior creó un clon de tu repositorio en tu sistema operativo.
 
 Ahora, hay tres niveles de repositorios a tener en cuenta:
 
-1. **Repositorio Upstream en GitHub:** `open-learning-exchange.github.io`
+1. **Repositorio Upstream en GitHub:** `todosconectados-gt.github.io`
 2. **Tu Fork en GitHub:** `<TuUsuario>.github.io`
 3. **Tu Clon Local del Sistema:** `<TuUsuario>.github.io`
 
-Estos repositorios deben estar consistentemente sincronizados y actualizados entre sí, ya que todos contribuimos al repositorio upstream (open-learning-exchange.github.io). Es crucial mantener los cambios separados y evitar mezclarlos entre repositorios. Diferencias significativas pueden causar conflictos y evitar que realices operaciones `git push/pull` sin problemas.
+Estos repositorios deben estar consistentemente sincronizados y actualizados entre sí, ya que todos contribuimos al repositorio upstream (todosconectados-gt.github.io). Es crucial mantener los cambios separados y evitar mezclarlos entre repositorios. Diferencias significativas pueden causar conflictos y evitar que realices operaciones `git push/pull` sin problemas.
 
 ### 2.1 Recursos
 
@@ -96,7 +96,7 @@ Para obtener actualizaciones del repositorio upstream, configúralo de la siguie
 3. Añade el repositorio upstream:
 
   ```bash
-  git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git
+  git remote add upstream https://github.com/todosconectados-gt/todosconectados-gt.github.io.git
   ```
 
 4. Verifica que el repositorio upstream esté configurado correctamente:
@@ -110,8 +110,8 @@ Para obtener actualizaciones del repositorio upstream, configúralo de la siguie
   ```bash
   origin  https://github.com/<TuUsuario>/<TuUsuario>.github.io.git (fetch)
   origin  https://github.com/<TuUsuario>/<TuUsuario>.github.io.git (push)
-  upstream  https://github.com/open-learning-exchange/open-learning-exchange.github.io.git (fetch)
-  upstream  https://github.com/open-learning-exchange/open-learning-exchange.github.io.git (push)
+  upstream  https://github.com/todosconectados-gt/todosconectados-gt.github.io.git (fetch)
+  upstream  https://github.com/todosconectados-gt/todosconectados-gt.github.io.git (push)
   ```
 
   Si notas que las URLs del upstream son incorrectas, usa `git remote rm upstream` y repite "3. Añadir el repositorio upstream".
@@ -156,7 +156,7 @@ En general, sigue estos comandos en tu línea de comandos, pero consulta arriba 
 
 #### Comprende que hay tres niveles de un repositorio en GitHub
 
-- el upstream ([open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io))
+- el upstream ([todosconectados-gt.github.io](https://github.com/todosconectados-gt/todosconectados-gt.github.io))
 - Tu `<TuUsuario>.github.io` en GitHub
 - Tu `<TuUsuario>.github.io` en tu sistema operativo.
 
@@ -167,7 +167,7 @@ El **repositorio upstream** es al que estamos contribuyendo.
 
 1. `cd <TuUsuario>.github.io.`
 2. `git remote -v` consulta arriba para asegurarte de que estás empujando y obteniendo a tu propio repositorio en GitHub como origin.
-3. `git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git`
+3. `git remote add upstream https://github.com/todosconectados-gt/todosconectados-gt.github.io.git`
 4. `git remote -v` los origins deberían permanecer igual, pero ahora también deberías estar obteniendo y empujando a OLE como upstream.
 
 #### Sincroniza Tu Fork

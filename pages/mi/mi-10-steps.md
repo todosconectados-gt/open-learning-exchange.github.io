@@ -111,7 +111,7 @@ En este paso, tu objetivo es crear, comentar y resolver issues en GitHub para me
    - Crea 3 nuevos issues en nuestro repositorio de GitHub sobre los Primeros Pasos para Internos Móviles o el Manual de Usuario de myPlanet.
    - Cada issue debe centrarse en un problema o mejora específica.
      - Asegúrate de que **al menos un issue** aborde la reducción de contenido, como enlaces muertos, contenido repetitivo, detalles excesivos, o la posibilidad de referenciar documentación oficial externa en los Primeros Pasos para Internos Móviles.
-     - Asegúrate de que **al menos un issue** se trate de poblar o mejorar la página del [Manual de Usuario de myPlanet](https://open-learning-exchange.github.io/#!pages/manual/myplanet/overview.md).
+     - Asegúrate de que **al menos un issue** se trate de poblar o mejorar la página del [Manual de Usuario de myPlanet](#!pages/manual/myplanet/overview.md).
 
 2. **Comentar en Issues**: Proporciona comentarios útiles en al menos 3 issues existentes que no creaste. Esto podría ser para dar retroalimentación, sugerir soluciones, hacer preguntas o aclarar el issue.
 
