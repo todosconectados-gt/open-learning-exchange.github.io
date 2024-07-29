@@ -1,116 +1,116 @@
-# Virtual Mobile Intern Orientation
+# Orientación para Pasantes Virtuales Móviles
 
-## Welcome to the OLE Mobile Intern Team!
+## ¡Bienvenido al Equipo de Pasantes Móviles de OLE!
 
-Congratulations! You have completed the first steps and have been selected to join the Open Learning Exchange mobile virtual intern team. Please remember that we expect interns to have at least 24 hours a week for the minimal of 3 months to work on Open Learning Exchange issues. If you do not currently have enough time, we will be happy to have you later when you do have time.
+¡Felicidades! Has completado los primeros pasos y has sido seleccionado para unirte al equipo de pasantes virtuales móviles de Open Learning Exchange. Por favor, recuerda que esperamos que los pasantes dediquen al menos 24 horas a la semana durante un mínimo de 3 meses para trabajar en los temas de Open Learning Exchange. Si actualmente no tienes suficiente tiempo, estaremos encantados de tenerte más adelante cuando tengas tiempo.
 
-## Get to Know the Team
+## Conoce al Equipo
 
-The first thing is to meet the team, starting with CTO [dogi](https://github.com/dogi), then the [current intern team leads and members](#!./pages/mi/mi-team.md). After having the initial meeting with dogi, you can join <http://talk.ole.org> during Google Meet session to meet with current interns, get to know each other, and ask them what they have been working on.
+Lo primero es conocer al equipo, comenzando con el CTO [dogi](https://github.com/dogi), luego los [líderes y miembros actuales del equipo de pasantes](#!./pages/mi/mi-team.md). Después de tener la reunión inicial con dogi, puedes unirte a <http://talk.ole.org> durante la sesión de Google Meet para conocer a los pasantes actuales, conocerse y preguntarles en qué han estado trabajando.
 
-## Familiarize Yourself with Current Projects and Issues
+## Familiarízate con los Proyectos y Problemas Actuales
 
-Typically, interns choose what project they want to work on based on their experience. If you get tired of a certain project, there is an opportunity to switch. Take a look at our current projects below, if any particular ones interest you, there is a very good chance that you can work on them.
+Normalmente, los pasantes eligen el proyecto en el que quieren trabajar en función de su experiencia. Si te cansas de un proyecto en particular, hay una oportunidad de cambiar. Echa un vistazo a nuestros proyectos actuales a continuación; si alguno en particular te interesa, hay una buena posibilidad de que puedas trabajar en ellos.
 
-**Current Active Mobile Projects**
+**Proyectos Móviles Activos**
 
 - [myPlanet](https://github.com/open-learning-exchange/myplanet)
-  - An Android app that syncs with Planet to save data for offline use and send usage data.
+  - Una aplicación para Android que se sincroniza con Planet para guardar datos para uso sin conexión y enviar datos de uso.
 - [Remote](https://github.com/treehouses/remote/)
-  - An Android app that communicates with headless Raspberry Pi mobile server running treehouses image via Bluetooth.
+  - Una aplicación para Android que se comunica con un servidor móvil Raspberry Pi sin cabeza que ejecuta una imagen de treehouses a través de Bluetooth.
 
-## A Few Things to Know...
+## Algunas Cosas que Debes Saber...
 
-### Becoming a GitHub Organization Member
+### Convertirse en Miembro de la Organización en GitHub
 
-Once you've been officially onboarded as a virtual intern, you'll receive email invitations to join the GitHub organizations: [open-learning-exchange](https://github.com/open-learning-exchange), [ole-vi](https://github.com/ole-vi), and [treehouses](https://github.com/treehouses).
+Una vez que hayas sido oficialmente incorporado como pasante virtual, recibirás invitaciones por correo electrónico para unirte a las organizaciones de GitHub: [open-learning-exchange](https://github.com/open-learning-exchange), [ole-vi](https://github.com/ole-vi) y [treehouses](https://github.com/treehouses).
 
-Upon receiving these invitations, please accept them promptly. Once accepted, mark yourself as a public member in the [list of OLE contributors](https://github.com/orgs/open-learning-exchange/people).
+Al recibir estas invitaciones, por favor, acéptalas de inmediato. Una vez aceptadas, márcate como miembro público en la [lista de colaboradores de OLE](https://github.com/orgs/open-learning-exchange/people).
 
-### Transition to OLE's Repositories and Adopt the Feature Branch Workflow
+### Transición a los Repositorios de OLE y Adopción del Flujo de Trabajo con Ramas de Características
 
-Moving forward, you'll be working directly on OLE's repositories instead of your own forked repositories. We'll be following the [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), which allows for better collaboration and code management.
+A partir de ahora, trabajarás directamente en los repositorios de OLE en lugar de tus propios repositorios bifurcados. Seguiremos el [Flujo de Trabajo con Ramas de Características](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), que permite una mejor colaboración y gestión del código.
 
-It's important to note that with this workflow, you have the potential to make more significant changes, so always double-check the branch you're working on. Additionally, commit frequently and create pull requests early in the development process. This enables other virtual interns to review your code and provide feedback, ensuring you stay on the right track from the outset.
+Es importante tener en cuenta que con este flujo de trabajo, tienes el potencial de hacer cambios más significativos, por lo que siempre debes verificar la rama en la que estás trabajando. Además, realiza commits con frecuencia y crea solicitudes de extracción temprano en el proceso de desarrollo. Esto permite a otros pasantes virtuales revisar tu código y proporcionar retroalimentación, asegurando que te mantengas en el camino correcto desde el principio.
 
-### Reviewing Pull Requests and Issues
+### Revisión de Solicitudes de Extracción y Problemas
 
-One of your responsibilities as an intern is to review and help prospective interns with their issues / pull requests at [open-learning-exchange/open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io). To begin a review, navigate to the 'Files changed' tab on a pull request. Familiarize yourself with GitHub's review features by referring to the [Review on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) documentation.
+Una de tus responsabilidades como pasante es revisar y ayudar a los pasantes prospectivos con sus problemas / solicitudes de extracción en [open-learning-exchange/open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io). Para comenzar una revisión, navega a la pestaña 'Files changed' en una solicitud de extracción. Familiarízate con las funciones de revisión de GitHub consultando la [documentación sobre Revisiones en GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
 
-Ensure you're mindful of our diverse community when communicating feedback. Refer to [**A guide for reviewing code and having your code reviewed**](https://github.com/thoughtbot/guides/tree/main/code-review#code-review) for tips on using inclusive language and fostering a supportive environment."
+Asegúrate de ser consciente de nuestra diversa comunidad al comunicar comentarios. Consulta [**Una guía para revisar código y tener tu código revisado**](https://github.com/thoughtbot/guides/tree/main/code-review#code-review) para obtener consejos sobre el uso de lenguaje inclusivo y fomentar un entorno de apoyo.
 
-You should check if the following conditions are met:
+Debes verificar que se cumplan las siguientes condiciones:
 
-- [x] issue number is included in pull request title and description in the format of `(fixes #IssueNumber)`, when applicable
-- [x] there are no unnecessary files/lines change in "Files changed" tab
-- [x] there's a branch for the patch
-- [x] the pull request actually fixes the issue
-- [x] changes are rendered correctly on rawgit preview
-- [x] no merge conflicts
-- [x] commits are associated with GitHub account
+- [x] el número de problema está incluido en el título y la descripción de la solicitud de extracción en el formato `(fixes #IssueNumber)`, cuando sea aplicable
+- [x] no hay archivos o líneas innecesarios en la pestaña "Files changed"
+- [x] hay una rama para el parche
+- [x] la solicitud de extracción realmente soluciona el problema
+- [x] los cambios se renderizan correctamente en la vista previa de rawgit
+- [x] sin conflictos de fusión
+- [x] los commits están asociados con la cuenta de GitHub
 
-Every time you comment on an issue or review a pull request, message those involved on the [Discord Server](https://discord.gg/mtgGD4EnYW) with a link to the issue / pull request. Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
+Cada vez que comentes en un problema o revises una solicitud de extracción, envía un mensaje a los involucrados en el [Servidor de Discord](https://discord.gg/mtgGD4EnYW) con un enlace al problema / solicitud de extracción. Además, si encuentras algún problema que deba abordarse con una solicitud de extracción, no olvides usar la opción `Request changes` al crear tu revisión.
 
-### Merging a Pull Request
+### Fusionar una Solicitud de Extracción
 
-To merge a pull request, follow these steps:
+Para fusionar una solicitud de extracción, sigue estos pasos:
 
-1. **Approval Requirement:** Ensure that at least two other team members have approved the pull request, and there are no outstanding change requests from others. However, there's an exception for virtual interns adding themselves to `mi-team.md`: they should merge their pull request during their initial meeting interview.
+1. **Requisito de Aprobación:** Asegúrate de que al menos dos miembros del equipo hayan aprobado la solicitud de extracción y no haya solicitudes de cambios pendientes de otros. Sin embargo, hay una excepción para los pasantes virtuales que se añaden a `mi-team.md`: deben fusionar su solicitud de extracción durante su entrevista inicial.
 
-2. **Merging Process:**
-   - Select "Squash and Merge"
-   - **Commit Title:** Remove all commit messages in the extended description. Keep the commit title concise, clear, and in lowercase.
-   - **Closing Issue:** If applicable, include "(fixes #IssueNumber)" in the title to [automatically close the associated issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword). If forgotten, manually close the issue and link it to the original pull request. An example of a good commit title: "update vi-configuration.md (fixes #1530) (#1557)", where "1530" is the issue number, and "1557" is the pull request number.
+2. **Proceso de Fusión:**
+   - Selecciona "Squash and Merge"
+   - **Título del Commit:** Elimina todos los mensajes de commit en la descripción extendida. Mantén el título del commit conciso, claro y en minúsculas.
+   - **Cierre de Problemas:** Si es aplicable, incluye "(fixes #IssueNumber)" en el título para [cerrar automáticamente el problema asociado](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword). Si olvidas esto, cierra manualmente el problema y vincúlalo a la solicitud de extracción original. Un ejemplo de un buen título de commit: "update vi-configuration.md (fixes #1530) (#1557)", donde "1530" es el número del problema y "1557" es el número de la solicitud de extracción.
 
-3. **Notification:** After merging a pull request, mention the author on the [Discord server](https://discord.gg/mtgGD4EnYW). Ensure to include a link to the pull request and the commit ID for reference.
+3. **Notificación:** Después de fusionar una solicitud de extracción, menciona al autor en el [servidor de Discord](https://discord.gg/mtgGD4EnYW). Asegúrate de incluir un enlace a la solicitud de extracción y el ID del commit para referencia.
 
-### Check-in/Check-out
+### Registro de Entrada/Salida
 
-We typically conduct verbal check-ins (similar to "[stand-up meetings](https://en.wikipedia.org/wiki/Stand-up_meeting)") and check-outs. If verbal communication isn't possible, you can use the following text format in our Discord *vi-lounge* channel:
+Normalmente, realizamos registros de entrada y salida verbales (similares a los "[stand-up meetings](https://en.wikipedia.org/wiki/Stand-up_meeting)"). Si la comunicación verbal no es posible, puedes usar el siguiente formato de texto en nuestro canal de Discord *vi-lounge*:
 
 ```
-# Check-in
-What did I work on last time?
+# Registro de Entrada
+¿Qué hice la última vez?
 -
 
-What is my aim for today?
-- List what you are working on - consider linking to the issues
+¿Cuál es mi objetivo para hoy?
+- Enumera en qué estás trabajando - considera enlazar a los problemas
 
-What obstacles are in the way of our progress?
-- List any problems
+¿Qué obstáculos están en el camino de nuestro progreso?
+- Enumera cualquier problema
 ```
 
 ```
-# Check-out
-What I worked on today
-- Consider linking to the pull request when applicable
+# Registro de Salida
+Lo que trabajé hoy
+- Considera enlazar a la solicitud de extracción cuando sea aplicable
 
-which date and time are we going to meet you next
-- e.g. Wednesday 10am EDT
+¿Qué fecha y hora vamos a encontrarnos contigo la próxima vez?
+- por ejemplo, miércoles 10am EDT
 ```
 
-## Form a Working Routine and Schedule
+## Formar una Rutina de Trabajo y Horario
 
-### Recommended Daily Routine
+### Rutina Diaria Recomendada
 
-While you are free to work in your own style, we recommend you follow this basic daily routine:
+Mientras eres libre de trabajar a tu propio ritmo, te recomendamos seguir esta rutina diaria básica:
 
-- Check Discord channels and your discord private messages.
-- Join the [OLE Google Meet session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast.
-- Check in verbally or write a message in Discord vi-lounge channel with the format mentioned above.
-- Review any issues or pull requests that have been added or changed on [open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io) since last time you reviewed.
-- Close issues with `(fixes #IssueNumber)` in the pull request squash merge commit message.
-- Work on your issues and write in the respective repository Discord channel any time you run into problems.
-- Commit often and make pull requests as early as possible, so you can get feedback as you work.
+- Revisa los canales de Discord y tus mensajes privados en Discord.
+- Únete a la [sesión de Google Meet de OLE](http://talk.ole.org) si puedes, para que puedas seguir en qué está trabajando todo el mundo y obtener ayuda rápidamente.
+- Regístrate verbalmente o escribe un mensaje en el canal vi-lounge de Discord con el formato mencionado anteriormente.
+- Revisa cualquier problema o solicitud de extracción que se haya agregado o cambiado en [open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io) desde la última vez que revisaste.
+- Cierra problemas con `(fixes #IssueNumber)` en el mensaje de commit de fusión squash de la solicitud de extracción.
+- Trabaja en tus problemas y escribe en el canal de Discord del repositorio respectivo cada vez que te enfrentes a problemas.
+- Realiza commits con frecuencia y crea solicitudes de extracción lo antes posible, para que puedas obtener retroalimentación mientras trabajas.
 
-### Weekly Schedule
+### Horario Semanal
 
-Our Google Meet session can be joined at [http://talk.ole.org](http://talk.ole.org). As we start up our virtual internship program, we might split up into many google meet sessions or use Discord for synchronous communication.
+Nuestra sesión de Google Meet se puede unirse en [http://talk.ole.org](http://talk.ole.org). A medida que iniciamos nuestro programa de pasantías virtuales, podríamos dividirnos en varias sesiones de Google Meet o usar Discord para comunicación sincrónica.
 
-## Communicate, Communicate, Communicate!
+## ¡Comunica, Comunica, Comunica!
 
-Communication is key to success in a remote internship. Don't hesitate to reach out on Discord if you have questions, concerns, or need guidance. We're here to support you every step of the way.
+La comunicación es clave para el éxito en una pasantía remota. No dudes en ponerte en contacto en Discord si tienes preguntas, inquietudes o necesitas orientación. Estamos aquí para apoyarte en cada paso del camino.
 
-If you're unsure about what tasks to tackle next or encounter any obstacles preventing you from working, let us know. It's better to communicate openly rather than leave us guessing. Remember, the more you invest in this internship, the more you'll gain from it.
+Si no estás seguro de qué tareas abordar a continuación o encuentras obstáculos que te impiden trabajar, háznoslo saber. Es mejor comunicarse abiertamente en lugar de dejarnos adivinando. Recuerda, cuanto más inviertas en esta pasantía, más obtendrás de ella.
 
-Adjusting to remote work requires self-discipline and initiative, but you're not alone. We're here to help you navigate this journey, so don't hesitate to ask for help or advice. Your success is our priority!
+Adaptarse al trabajo remoto requiere autodisciplina e iniciativa, pero no estás solo. Estamos aquí para ayudarte a navegar por este viaje, así que no dudes en pedir ayuda o consejo. ¡Tu éxito es nuestra prioridad!
