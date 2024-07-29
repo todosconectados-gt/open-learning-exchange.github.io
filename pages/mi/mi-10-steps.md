@@ -1,141 +1,142 @@
-# First Steps – Mobile Virtual Intern
 
-## The Big Picture
+# Primeros Pasos – Interno Virtual Móvil
 
-Welcome to the first steps for becoming an OLE Mobile Virtual Intern! We treat these first steps as a vetting process to prove that you can follow basic instructions before moving on to more complex projects and larger teams. Think of this as the interview for the internship.
+## La Visión General
 
-If you are selected for the internship after completing the steps, you will be officially invited to join the OLE mobile interns team! We’ll add you to our Virtual Interns Discord channel and assign you to a specific team to work on developing and improving OLE’s software. Our current mobile projects are:
+¡Bienvenido a los primeros pasos para convertirte en un Interno Virtual Móvil de OLE! Tratamos estos primeros pasos como un proceso de selección para demostrar que puedes seguir instrucciones básicas antes de pasar a proyectos más complejos y equipos más grandes. Piensa en esto como la entrevista para la pasantía.
 
-1. **[myPlanet](https://github.com/open-learning-exchange/myplanet)**: An Android app that syncs with Planet to save data for offline use and send usage data.
-2. **[Remote](https://github.com/treehouses/remote)**: An Android app that communicates with headless Raspberry Pi mobile server running treehouses image via Bluetooth.
+Si eres seleccionado para la pasantía después de completar los pasos, serás invitado oficialmente a unirte al equipo de internos móviles de OLE. Te agregaremos a nuestro canal de Discord para Internos Virtuales y te asignaremos a un equipo específico para trabajar en el desarrollo y mejora del software de OLE. Nuestros proyectos móviles actuales son:
 
-If you are selected after completing these steps, you'll work with your team on an assignment, and assignments will change weekly. During this internship, you will have the opportunity to work with various software and languages, including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, **[Command Line/Terminal](https://www.w3schools.com/whatis/whatis_cli.asp)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)**, **[Realm database](https://en.wikipedia.org/wiki/Realm_(database%29)**, **[Java](https://www.tutorialspoint.com/java/index.htm)**, **[Android Studio](https://en.wikipedia.org/wiki/Android_Studio)**, and **[Kotlin](https://kotlinlang.org/)**.
+1. **[myPlanet](https://github.com/open-learning-exchange/myplanet)**: Una aplicación de Android que se sincroniza con Planet para guardar datos para uso offline y enviar datos de uso.
+2. **[Remote](https://github.com/treehouses/remote)**: Una aplicación de Android que se comunica con un servidor móvil Raspberry Pi sin pantalla que ejecuta la imagen de treehouses vía Bluetooth.
 
-**NOTE**: This is an unpaid, intensive internship requiring at least 24 hours of work per week. You can find more information about the internship in our [FAQ](mi-faq.md#General_Internship_Questions). If you have additional questions, feel free to ask in the Discord server!
+Si eres seleccionado después de completar estos pasos, trabajarás con tu equipo en una asignación, y las asignaciones cambiarán semanalmente. Durante esta pasantía, tendrás la oportunidad de trabajar con varios softwares y lenguajes, incluyendo **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, **[Línea de Comandos/Terminal](https://www.w3schools.com/whatis/whatis_cli.asp)**, **[Scripts de Línea de Comandos/Terminal](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)**, **[Base de datos Realm](https://en.wikipedia.org/wiki/Realm_(database%29)**, **[Java](https://www.tutorialspoint.com/java/index.htm)**, **[Android Studio](https://en.wikipedia.org/wiki/Android_Studio)** y **[Kotlin](https://kotlinlang.org/)**.
 
-## The Steps
+**NOTA**: Esta es una pasantía no remunerada e intensiva que requiere al menos 24 horas de trabajo por semana. Puedes encontrar más información sobre la pasantía en nuestro [FAQ](mi-faq.md#General_Internship_Questions). Si tienes preguntas adicionales, no dudes en preguntar en el servidor de Discord.
 
-Social coding is a huge part of any open source and collaborative project, and the Open Learning Exchange (OLE) is no different. In the following series of steps, you will learn about Markdown, Vagrant, Docker, Git, GitHub, GitHub issues, GitHub pull requests, etc. You'll also be introduced to OLE's digital library, [Planet](https://github.com/open-learning-exchange/planet), and its companion Android app, [myPlanet](https://github.com/open-learning-exchange/myplanet).
+## Los Pasos
 
-**These steps may seem simple, but we expect high-quality work, which might require extra time. We want to see that you can use, or learn to use, these tools effectively — including writing clear GitHub issues, using basic Git commands, creating proper pull requests, navigating myPlanet, etc. Just passively following the steps is the bare minimum; instead, aim to impress us with excellent GitHub etiquette and well-structured Markdown.**
+La codificación social es una gran parte de cualquier proyecto de código abierto y colaborativo, y Open Learning Exchange (OLE) no es diferente. En la siguiente serie de pasos, aprenderás sobre Markdown, Vagrant, Docker, Git, GitHub, problemas de GitHub, solicitudes de extracción de GitHub, etc. También se te presentará la biblioteca digital de OLE, [Planet](https://github.com/open-learning-exchange/planet), y su aplicación complementaria de Android, [myPlanet](https://github.com/open-learning-exchange/myplanet).
 
-Take the opportunity to read more about the tools and languages we use to deepen your understanding and reduce confusion. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice in first steps are crucial for both this internship and a future career in software development.
+**Estos pasos pueden parecer simples, pero esperamos un trabajo de alta calidad, lo que podría requerir tiempo adicional. Queremos ver que puedes usar, o aprender a usar, estas herramientas de manera efectiva, incluyendo escribir problemas claros de GitHub, usar comandos básicos de Git, crear solicitudes de extracción adecuadas, navegar por myPlanet, etc. Seguir los pasos pasivamente es lo mínimo; en cambio, apunta a impresionarnos con una excelente etiqueta de GitHub y un Markdown bien estructurado.**
 
-The MDwiki offers plenty of resources to help you complete these steps. You'll find a list of useful links at the end of each step. :)
+Aprovecha la oportunidad de leer más sobre las herramientas y lenguajes que usamos para profundizar tu comprensión y reducir la confusión. **¡Trata estos pasos como oportunidades de aprendizaje!** Las habilidades de GitHub y Markdown que practiques en los primeros pasos son cruciales tanto para esta pasantía como para una futura carrera en desarrollo de software.
 
-**We also would like you to keep us regularly updated in the Discord channel as you complete these steps. We will ask you to send messages, links, and screenshots along the way, which we'll use to track your progress. Please make sure not to miss this, as it's crucial for us to track your work.**
+El MDwiki ofrece muchos recursos para ayudarte a completar estos pasos. Encontrarás una lista de enlaces útiles al final de cada paso. :)
 
-A significant part of these steps is identifying problems or suggesting improvements for this MDwiki. As you complete the steps, take note of any issues you encounter or ideas for enhancements. This helps improve the MDwiki and these steps for future interns.
+**También nos gustaría que nos mantuvieras actualizados regularmente en el canal de Discord a medida que completes estos pasos. Te pediremos que envíes mensajes, enlaces y capturas de pantalla en el camino, que usaremos para rastrear tu progreso. Por favor, asegúrate de no omitir esto, ya que es crucial para nosotros rastrear tu trabajo.**
 
-While there's no official deadline for completing these steps, most successful candidates finish them within 7-8 days. Good luck!
+Una parte importante de estos pasos es identificar problemas o sugerir mejoras para este MDwiki. A medida que completes los pasos, toma nota de cualquier problema que encuentres o ideas para mejoras. Esto ayuda a mejorar el MDwiki y estos pasos para futuros internos.
 
-## FAQ - Frequently Asked Questions
+Aunque no hay una fecha límite oficial para completar estos pasos, la mayoría de los candidatos exitosos los completan en 7-8 días. ¡Buena suerte!
 
-**[Our FAQ page](mi-faq.md)** is a comprehensive resource containing answers to common questions about the internship and First Steps. It also features additional helpful links and video tutorials aimed at familiarizing you with the tools and languages integral to our work.
+## FAQ - Preguntas Frecuentes
 
-If you have general internship inquiries and can't find the information you need on the FAQ page, please don't hesitate to reach out to us via Discord. Try to avoid DMs as others might have the same question!
+**[Nuestra página de FAQ](mi-faq.md)** es un recurso integral que contiene respuestas a preguntas comunes sobre la pasantía y los Primeros Pasos. También presenta enlaces adicionales útiles y tutoriales en video destinados a familiarizarte con las herramientas y lenguajes esenciales para nuestro trabajo.
 
-For technical questions not covered in the FAQ, in addition to contacting us on Discord, Google and Stack Exchange serve as excellent supplementary resources to explore. :) 
+Si tienes consultas generales sobre la pasantía y no puedes encontrar la información que necesitas en la página de FAQ, no dudes en contactarnos a través de Discord. Intenta evitar los mensajes directos ya que otros podrían tener la misma pregunta.
 
-## Step 0 - Prerequisites
+Para preguntas técnicas no cubiertas en el FAQ, además de contactarnos en Discord, Google y Stack Exchange son excelentes recursos suplementarios para explorar. :)
 
-To participate in the internship, you will need the following:
+## Paso 0 - Requisitos Previos
 
-1. A laptop or desktop computer with at least 8GB of RAM.
-2. An Android device (phone or tablet) with a minimum of 3GB of RAM and running Android 9 "Pie" or later, and/or a Chromebook.
-   - If you do not have a physical Android or Chromebook device, you can use a [Raspberry Pi 4](https://emteria.com/kb/hardware#raspberry-pi-4b) [or 5](https://emteria.com/kb/hardware#raspberry-pi-5) with at least 8GB of RAM as an experimental alternative.
-3. [Discord](https://discord.com/download) installed on both your Android device and your laptop or desktop computer for easier communication and screenshot sharing.
-4. A stable internet connection.
+Para participar en la pasantía, necesitarás lo siguiente:
 
-**Once you have confirmed that you meet the aforementioned requirements, please say hi to everyone in the Discord channel and let us know that you have reached Step 0.**
+1. Una computadora portátil o de escritorio con al menos 8GB de RAM.
+2. Un dispositivo Android (teléfono o tableta) con un mínimo de 3GB de RAM y que ejecute Android 9 "Pie" o posterior, y/o una Chromebook.
+   - Si no tienes un dispositivo Android físico o Chromebook, puedes usar una [Raspberry Pi 4](https://emteria.com/kb/hardware#raspberry-pi-4b) [o 5](https://emteria.com/kb/hardware#raspberry-pi-5) con al menos 8GB de RAM como una alternativa experimental.
+3. [Discord](https://discord.com/download) instalado tanto en tu dispositivo Android como en tu computadora portátil o de escritorio para facilitar la comunicación y el intercambio de capturas de pantalla.
+4. Una conexión a internet estable.
 
-## Step 1 - Markdown & Forking Workflow
+**Una vez que hayas confirmado que cumples con los requisitos mencionados anteriormente, saluda a todos en el canal de Discord y háznos saber que has llegado al Paso 0.**
 
-Follow the instructions on [Creating Your GitHub Profile Page: A Guide to Markdown & Forking Workflow](mi-github-and-markdown.md).
+## Paso 1 - Markdown y Flujo de Trabajo de Forking
 
-**Remember: Only proceed to the next step once you've completed all the instructions and submitted the pull request for your profile.**
+Sigue las instrucciones en [Crear Tu Página de Perfil de GitHub: Una Guía de Markdown y Flujo de Trabajo de Forking](mi-github-and-markdown.md).
 
-## Step 2 - myPlanet App
+**Recuerda: Solo procede al siguiente paso una vez que hayas completado todas las instrucciones y enviado la solicitud de extracción para tu perfil.**
 
-myPlanet is an Android app available on the Play Store. Please find and install it there using [this link](https://play.google.com/store/apps/details?id=org.ole.planet.myplanet).
+## Paso 2 - Aplicación myPlanet
 
-#### Enroll in Beta Testing
+myPlanet es una aplicación de Android disponible en la Play Store. Encuéntrala e instálala allí usando [este enlace](https://play.google.com/store/apps/details?id=org.ole.planet.myplanet).
 
-Join as a beta tester to help us improve the app:
+#### Inscribirse en la Prueba Beta
 
-- **From a Phone:**
-  Join in Google Play on Android in [myPlanet's app detail page](https://play.google.com/store/apps/details?id=org.ole.planet.myplanet). Scroll all the way down, under “Join the beta,” tap Join.
-- **From a Laptop or Desktop Computer:**
-  Join on the web via [this link](https://play.google.com/apps/testing/org.ole.planet.myplanet).
+Únete como beta tester para ayudarnos a mejorar la aplicación:
 
-After enrolling, there may be a delay before you can upgrade to the beta version of the app.
+- **Desde un Teléfono:**
+  Únete en Google Play en Android en [la página de detalles de la app de myPlanet](https://play.google.com/store/apps/details?id=org.ole.planet.myplanet). Desplázate hacia abajo, en "Únete a la beta", toca Unirse.
+- **Desde una Computadora Portátil o de Escritorio:**
+  Únete en la web a través de [este enlace](https://play.google.com/apps/testing/org.ole.planet.myplanet).
 
-#### Testing the app
+Después de inscribirte, puede haber un retraso antes de que puedas actualizar a la versión beta de la aplicación.
 
-Once you've **installed the beta version** of the app, launch it and grant necessary permissions. Tap the gear icon in the upper right after passing the intro screen. Keep configurations default and tap "SYNC". Wait for completion, then "LOG IN AS GUEST" and explore the app for a minimal of 15 minutes.
+#### Probando la aplicación
 
-Take screenshots and attempt to crash the app. After exploration, update us on Discord: "I'm on step 2, spent about xx minutes in the myPlanet app and crashed it when navigating to ..." or "I'm on step 2, spent about xx minutes in the myPlanet app and it did not crash."
+Una vez que hayas **instalado la versión beta** de la aplicación, lánzala y concede los permisos necesarios. Toca el ícono de engranaje en la esquina superior derecha después de pasar la pantalla de introducción. Mantén las configuraciones por defecto y toca "SYNC". Espera a que se complete, luego "INICIAR SESIÓN COMO INVITADO" y explora la aplicación durante al menos 15 minutos.
 
-Details about the crash might take up to 24 hours to show up in Google Play Console on our end.
+Toma capturas de pantalla e intenta hacer que la aplicación falle. Después de la exploración, actualízanos en Discord: "Estoy en el paso 2, pasé aproximadamente xx minutos en la aplicación myPlanet y falló al navegar a ..." o "Estoy en el paso 2, pasé aproximadamente xx minutos en la aplicación myPlanet y no falló."
 
-## Step 3 - Build myPlanet in Android Studio
+Los detalles sobre la falla pueden tardar hasta 24 horas en aparecer en la Consola de Google Play en nuestro lado.
 
-Follow the guide at [myPlanet and Android Studio](mi-myplanet-and-android-studio.md) to clone myPlanet repository from GitHub and build the myPlanet app with Android Studio.
+## Paso 3 - Construir myPlanet en Android Studio
 
-## Step 4 - Connect myPlanet app to Planet
+Sigue la guía en [myPlanet y Android Studio](mi-myplanet-and-android-studio.md) para clonar el repositorio de myPlanet desde GitHub y construir la aplicación myPlanet con Android Studio.
 
-Follow the guide at [Connecting myPlanet to Planet](mi-step4.md).
+## Paso 4 - Conectar la aplicación myPlanet a Planet
 
-## Step 5 - Git Repositories: A Guide to Cloning, Configuring, and Syncing Forks
+Sigue la guía en [Conectar myPlanet a Planet](mi-step4.md).
 
-Follow the directions at [Git Repositories: A Guide to Cloning, Configuring, and Syncing Forks](mi-github-and-repositories.md).
+## Paso 5 - Repositorios de Git: Una Guía para Clonar, Configurar y Sincronizar Forks
 
-## Step 6 - GitHub Issues Tutorial
+Sigue las instrucciones en [Repositorios de Git: Una Guía para Clonar, Configurar y Sincronizar Forks](mi-github-and-repositories.md).
 
-- Follow the tutorial under the [GitHub Issues](mi-github-issues.md) to create at least one issue. Post a link in the discord channel whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice.
-- No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file.
-- You can also work on issues that you didn't create. Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged.
+## Paso 6 - Tutorial de Issues en GitHub
 
-**HINT**: You can track your progress with the number of pull requests and issues [here](../track-first-steps-progress.md).
+- Sigue el tutorial en [GitHub Issues](mi-github-issues.md) para crear al menos un issue. Publica un enlace en el canal de Discord cada vez que crees un issue o comentes en el issue de otra persona. Se te anima a publicar tantos issues como puedas para mejorar la página, así como para práctica personal.
+- Ningún issue es demasiado grande o pequeño para ser presentado, y está bien si no sabes cómo solucionarlo por ti mismo. Si sabes cómo resolver un issue, asegúrate de proporcionar una descripción detallada de tu investigación y muestra cómo solucionarlo. Está bien presentar un issue sobre errores menores y cambios muy pequeños, pero no hagas que este sea el caso para todos los issues que presentes.
+- También puedes trabajar en issues que no hayas creado. Asegúrate de haber creado al menos un issue, resuelto, comentado en un issue que no creaste y haber realizado un pull request con la solución que fue aceptada.
 
-## Step 7 - Take a Course on myPlanet, Courses Gardening
+**HINWEIS**: Puedes seguir tu progreso con el número de pull requests y issues [aquí](../track-first-steps-progress.md).
 
-Follow the guide at [Take a Course on myPlanet, Courses Gardening](mi-myplanet-course.md).
+## Paso 7 - Tomar un Curso en myPlanet, Jardinería de Cursos
 
-## Step 8 - Create Issues and Pull Requests
+Sigue la guía en [Tomar un Curso en myPlanet, Jardinería de Cursos](mi-myplanet-course.md).
 
-In this step, your goal is to create, comment on, and resolve GitHub issues to improve our Markdown Wiki. Here's what you'll need to do:
+## Paso 8 - Crear Issues y Pull Requests
 
-1. **Create Issues**:
-   - Create 3 new issues in our GitHub repository regarding Mobile Intern First Steps or myPlanet User Manual.
-   - Each issue should focus on a specific problem or improvement.
-     - Ensure that **at least one issue** addresses content reduction, such as dead links, repetitive content, excessive detail, or the potential to reference external official documentation in Mobile Intern First Steps.
-     - Ensure that **at least one issue** is about populating or improving the [myPlanet User Manual](https://open-learning-exchange.github.io/#!pages/manual/myplanet/overview.md) page.
+En este paso, tu objetivo es crear, comentar y resolver issues en GitHub para mejorar nuestra Wiki de Markdown. Esto es lo que necesitarás hacer:
 
-2. **Comment on Issues**: Provide helpful comments on at least 3 existing issues that you did not create. This could be to provide feedback, suggest solutions, ask questions, or clarify the issue.
+1. **Crear Issues**:
+   - Crea 3 nuevos issues en nuestro repositorio de GitHub sobre los Primeros Pasos para Internos Móviles o el Manual de Usuario de myPlanet.
+   - Cada issue debe centrarse en un problema o mejora específica.
+     - Asegúrate de que **al menos un issue** aborde la reducción de contenido, como enlaces muertos, contenido repetitivo, detalles excesivos, o la posibilidad de referenciar documentación oficial externa en los Primeros Pasos para Internos Móviles.
+     - Asegúrate de que **al menos un issue** se trate de poblar o mejorar la página del [Manual de Usuario de myPlanet](https://open-learning-exchange.github.io/#!pages/manual/myplanet/overview.md).
 
-3. **Resolve Issues with Pull Requests**: Resolve the 3 issues by making the necessary changes in separate branches derived from `master` in your repository, and submit a distinct pull request for each one.
+2. **Comentar en Issues**: Proporciona comentarios útiles en al menos 3 issues existentes que no creaste. Esto podría ser para dar retroalimentación, sugerir soluciones, hacer preguntas o aclarar el issue.
 
-Follow the **same process** as described in the [GitHub Issues step](mi-github-issues.md), working to improve our documentation for future interns. To get your pull requests merged, they must be approved by at least two other OLE team members/interns. After creating a pull request, announce it on the Discord chat to request reviews. You may need to make additional corrections based on feedback.
+3. **Resolver Issues con Pull Requests**: Resuelve los 3 issues haciendo los cambios necesarios en ramas separadas derivadas de `master` en tu repositorio, y envía un pull request distinto para cada uno.
 
-Remember, even small issues are worth addressing. Keep your issues focused and concise. If your pull requests need additional approvals, continue to work on other tasks while you wait.
+Sigue el **mismo proceso** descrito en el paso [GitHub Issues](mi-github-issues.md), trabajando para mejorar nuestra documentación para futuros internos. Para que tus pull requests sean aceptados, deben ser aprobados por al menos otros dos miembros/equipos de OLE. Después de crear un pull request, anúncialo en el chat de Discord para solicitar revisiones. Es posible que necesites hacer correcciones adicionales basadas en los comentarios.
 
-Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Help us make this documentation clear and useful for those who follow.
+Recuerda, incluso los issues pequeños valen la pena ser abordados. Mantén tus issues enfocados y concisos. Si tus pull requests necesitan aprobaciones adicionales, sigue trabajando en otras tareas mientras esperas.
 
-**NOTE**: While adding details can be helpful, it's important to remember that less is often more. Over time, this First Steps guide has become bloated with too much information, making it harder to follow. As you work on improving this guide, focus on simplifying the instructions and removing any unnecessary content. The goal is to create a clear and concise guide that future virtual interns can easily understand and use.
+Así como tu aprendizaje con esta Wiki fue posible gracias a los esfuerzos de internos anteriores, ahora recurrimos a ti para continuar esa tradición y ayudar a futuros internos a dar sus Primeros Pasos. Ayúdanos a hacer que esta documentación sea clara y útil para aquellos que la sigan.
 
-**NOTE**: While waiting for two OLE team members to approve your Pull Requests, you can continue creating more Issues and Pull Requests (upon approval, we suggest). They will all count towards your final Issue/PR total. PR approval can take time, so don't let a lengthy approval/fix process stop you from progressing in your "First Steps".
+**NOTA**: Si bien agregar detalles puede ser útil, es importante recordar que menos es a menudo más. Con el tiempo, esta guía de Primeros Pasos se ha vuelto abultada con demasiada información, dificultando su seguimiento. A medida que trabajas en mejorar esta guía, concéntrate en simplificar las instrucciones y eliminar cualquier contenido innecesario. El objetivo es crear una guía clara y concisa que los futuros internos virtuales puedan entender y usar fácilmente.
 
-Once you complete Step 8 you will have:
+**NOTA**: Mientras esperas que dos miembros del equipo OLE aprueben tus Pull Requests, puedes seguir creando más Issues y Pull Requests (con aprobación, sugerimos). Todos contarán para tu total final de Issues/PR. La aprobación de PR puede llevar tiempo, así que no permitas que un proceso de aprobación/arreglo largo te detenga en tu progreso en los "Primeros Pasos".
 
-- 5 merged pull requests (one at step 1, one at step 6 and three at step 8)
-- 4 comments made on issues you didn't create (one at step 6 and three at step 8)
-- 4 issues created (one at step 6 and three at step 8)
+Una vez que completes el Paso 8 tendrás:
 
-**HINT**: You can track your progress with the number of pull requests and issues [here](../track-first-steps-progress.md).
+- 5 pull requests aceptados (uno en el paso 1, uno en el paso 6 y tres en el paso 8)
+- 4 comentarios hechos en issues que no creaste (uno en el paso 6 y tres en el paso 8)
+- 4 issues creados (uno en el paso 6 y tres en el paso 8)
 
-## Step 9 - Be part of the team
+**HINWEIS**: Puedes seguir tu progreso con el número de pull requests y issues [aquí](../track-first-steps-progress.md).
 
-Next thing is to add yourself to the virtual intern list found in [mi-team.md](mi-team.md) and create a pull request. Message us ("@okurole_25668", "@dogi" and "@vi-mobile") in the Discord channel so that we can set up a meeting and add you to the team as soon as possible.
+## Paso 9 - Ser parte del equipo
 
-Make sure to read through the [intern orientation document](mi-intern-orientation.md) before the meeting.
+Lo siguiente es añadirte a la lista de internos virtuales que se encuentra en [mi-team.md](mi-team.md) y crear un pull request. Envíanos un mensaje ("@okurole_25668", "@dogi" y "@vi-mobile") en el canal de Discord para que podamos organizar una reunión y agregarte al equipo lo antes posible.
+
+Asegúrate de leer el [documento de orientación para internos](mi-intern-orientation.md) antes de la reunión.
