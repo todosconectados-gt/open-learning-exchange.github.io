@@ -1,6 +1,4 @@
-﻿Here is the translated markdown document in Spanish:
-
-# FAQ
+﻿# FAQ
 
 ## Preguntas Generales sobre la Pasantía
 
