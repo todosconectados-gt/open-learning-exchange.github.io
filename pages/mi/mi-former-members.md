@@ -1,10 +1,10 @@
-# Members
+# Miembros
 
-## Active Members
+## Miembros Activos
 
-To view the list of current members, go to [active members page](mi-team.md).
+Para ver la lista de miembros actuales, visita la [página de miembros activos](mi-team.md).
 
-## Former Interns
+## Ex-Pasantes
 
-|**Username**|**Join Date**|**Leave Date**|
-|------------|-------------|--------------|
+|**Nombre de Usuario**|**Fecha de Inicio**|**Fecha de Salida**|
+|---------------------|-------------------|-------------------|

@@ -1,239 +1,209 @@
-# Git Repositories: A Guide to Cloning, Configuring, and Syncing Forks
+# Repositorios Git: Una Guía para Clonar, Configurar y Sincronizar Forks
 
-## Objectives
+## Objetivos
 
-- Learn how to **use Git from the command line**
-- Understand how to configure and sync a repository with the forking workflow
+- Aprender a **usar Git desde la línea de comandos**
+- Comprender cómo configurar y sincronizar un repositorio con el flujo de trabajo de fork
 
-## Introduction
+## Introducción
 
-On GitHub, software code is organized into repositories, each representing a different project. For example, you've been working on one of our repositories, **open-learning-exchange.github.io**. We encourage you to explore our other repositories on GitHub [here](https://github.com/open-learning-exchange), but remember: **look, don't touch**. If you are new to Git or GitHub, take a look at [this introduction](https://www.freecodecamp.org/news/introduction-to-git-and-github/).
+En GitHub, el código de software se organiza en repositorios, cada uno representando un proyecto diferente. Por ejemplo, has estado trabajando en uno de nuestros repositorios, **todosconectados-gt.github.io**. Te animamos a explorar nuestros otros repositorios en GitHub [aquí](https://github.com/open-learning-exchange), pero recuerda: **mira, no toques**. Si eres nuevo en Git o GitHub, echa un vistazo a [esta introducción](https://www.freecodecamp.org/news/introduction-to-git-and-github/).
 
-As previously mentioned, in the [forking workflow](mi-github-and-markdown.md#2.3_Introduction_to_Forking_Workflow), you fork a repository to work on it independently from the upstream repository, then send your changes back to the original repository via a pull request. You completed this process on github.com in Step 1. In this step, we'll dive deeper and use the command line to sync your forked repository with OLE's upstream repository.
+Como se mencionó anteriormente, en el [flujo de trabajo de fork](mi-github-and-markdown.md#2.3_Introduction_to_Forking_Workflow), haces un fork de un repositorio para trabajar en él de manera independiente del repositorio principal, y luego envías tus cambios de vuelta al repositorio original mediante una solicitud de extracción (pull request). Completaste este proceso en github.com en el Paso 1. En este paso, profundizaremos y utilizaremos la línea de comandos para sincronizar tu repositorio fork con el repositorio principal de OLE.
 
-The diagram below shows the structure of the forking workflow for open-learning-exchange.github.io, with a central upstream repository, individual forks, and local copies on your machine.
+El diagrama a continuación muestra la estructura del flujo de trabajo de fork para todosconectados-gt.github.io, con un repositorio principal central, forks individuales y copias locales en tu máquina.
 
-![Repositories Relationship](image/mi-repo-diagram.png)
+![Relación de Repositorios](image/mi-repo-diagram.png)
 
-## Important Terms
+## Términos Importantes
 
-In this step, you'll encounter some common terms, such as
+En este paso, encontrarás algunos términos comunes, como:
 
-- `master`/`main`: a repository's default branch name
-- `upstream`: the repository you forked from
-- `origin`: your own fork of the upstream repository
-Both `upstream` and `origin` are considered **[remote](https://git-scm.com/docs/git-remote)**. Also, remember that a repository can contain multiple branches.
+- `master`/`main`: nombre de la rama por defecto de un repositorio – en nuestro caso, es `todos`
+- `upstream`: el repositorio del que hiciste el fork
+- `origin`: tu propio fork del repositorio upstream
+Tanto `upstream` como `origin` se consideran **[remotos](https://git-scm.com/docs/git-remote)**. Además, recuerda que un repositorio puede contener múltiples ramas.
 
-## 1. Clone Your GitHub Repository
+## 1. Clonar Tu Repositorio de GitHub
 
-Both HTTPS and SSH URLs allow you to access the same remote repositories, but they use different protocols. You can choose either based on your preference:
+Tanto las URLs HTTPS como SSH te permiten acceder a los mismos repositorios remotos, pero utilizan diferentes protocolos. Puedes elegir cualquiera según tu preferencia:
 
-- **HTTPS:** Easier to set up for beginners, doesn't require SSH keys.
-- **SSH:** More secure, requires you to have SSH keys set up on your machine and added to your GitHub account.
+- **HTTPS:** Más fácil de configurar para principiantes, no requiere claves SSH.
+- **SSH:** Más seguro, requiere que tengas claves SSH configuradas en tu máquina y añadidas a tu cuenta de GitHub.
 
-For more details, check [Cloning a repository | GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+Para más detalles, consulta [Clonando un repositorio | GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-#### To clone with SSH
+#### Para clonar con SSH
 
-1. [Verify you have existing SSH keys on your machine](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys).
-2. [Add the SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+1. [Verifica que tienes claves SSH existentes en tu máquina](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys).
+2. [Añade la clave SSH a tu cuenta de GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
-### 1.2 Clone Your Repository
+### 1.2 Clona Tu Repositorio
 
-1. Open a command prompt/terminal window and visit your `<YourUserName>.github.io` repository on GitHub.
-2. Click the green "<> Code" button to get the repository's URL. Copy the HTTPS or SSH link.
-3. In your command line interface (CLI), type `git clone ` and paste the copied link. It should look similar to:
-   - **HTTPS:** `git clone https://github.com/<YourUserName>/<YourUserName>.github.io.git`
-   - **SSH:** `git clone git@github.com:<YourUserName>/<YourUserName>.github.io.git`
-4. Hit Enter. If the repository is cloned successfully, you can now `cd` into your `<YourUserName>.github.io` directory to see its contents.
+1. Abre una ventana de línea de comandos/terminal y visita tu repositorio `<TuUsuario>.github.io` en GitHub.
+2. Haz clic en el botón verde "<> Code" para obtener la URL del repositorio. Copia el enlace HTTPS o SSH.
+3. En tu interfaz de línea de comandos (CLI), escribe `git clone ` y pega el enlace copiado. Debería verse algo como:
+   - **HTTPS:** `git clone https://github.com/<TuUsuario>/<TuUsuario>.github.io.git`
+   - **SSH:** `git clone git@github.com:<TuUsuario>/<TuUsuario>.github.io.git`
+4. Presiona Enter. Si el repositorio se clona correctamente, ahora puedes `cd` en tu directorio `<TuUsuario>.github.io` para ver su contenido.
 
-## 2. Explanation About Repositories and Syncing Process
+## 2. Explicación Sobre Repositorios y el Proceso de Sincronización
 
-![GitHub Clone URL](image/mi-forking-and-updating-a-repo.png)
+![URL de Clonación de GitHub](image/mi-forking-and-updating-a-repo.png)
 
-The previous step created a clone of your repository on your OS.
+El paso anterior creó un clon de tu repositorio en tu sistema operativo.
 
-Now, there are three levels of repositories to keep in mind:
+Ahora, hay tres niveles de repositorios a tener en cuenta:
 
-1. **Upstream Repository on GitHub:** `open-learning-exchange.github.io`
-2. **Your Fork on GitHub:** `<YourUserName>.github.io`
-3. **Your Local System Clone:** `<YourUserName>.github.io`
+1. **Repositorio Upstream en GitHub:** `todosconectados-gt.github.io`
+2. **Tu Fork en GitHub:** `<TuUsuario>.github.io`
+3. **Tu Clon Local del Sistema:** `<TuUsuario>.github.io`
 
-These repositories must be consistently synced and up-to-date with each other since we all contribute to the upstream repository (open-learning-exchange.github.io). It's crucial to keep changes separate and avoid mixing them between repositories. Significant differences can cause conflicts and prevent you from performing `git push/pull` operations smoothly.
+Estos repositorios deben estar consistentemente sincronizados y actualizados entre sí, ya que todos contribuimos al repositorio upstream (todosconectados-gt.github.io). Es crucial mantener los cambios separados y evitar mezclarlos entre repositorios. Diferencias significativas pueden causar conflictos y evitar que realices operaciones `git push/pull` sin problemas.
 
-### 2.1 Steps to Sync Repositories
+### 2.1 Recursos
 
-1. **Fork and Clone:**
-   - Fork `open-learning-exchange.github.io` to create `<YourUserName>.github.io` on GitHub. (This was done in Step 1).
-   - Clone `<YourUserName>.github.io` to your local system. (This was done in this step's 1.1)
+- [Ayuda de GitHub: Sincronizando un Fork](https://help.github.com/articles/syncing-a-fork/)
+- [Documentación de Git](https://git-scm.com/doc)
 
-2. **Sync with Upstream:**
-   - Add the upstream repository:
-     ```
-     git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git
-     ```
-   - Fetch changes from upstream:
-     ```sh
-     git fetch upstream
-     ```
-   - Checkout your local master branch:
-     ```sh
-     git checkout master
-     ```
-   - Merge upstream changes into your local branch:
-     ```sh
-     git merge upstream/master
-     ```
+Siguiendo estos pasos, te asegurarás de que tus repositorios estén constantemente actualizados y evitarás conflictos (consulta el diagrama a continuación).
 
-3. **Push Updates to Your Fork on GitHub:**
-   - Push local changes to your fork on GitHub:
-     ```sh
-     git push origin master
-     ```
+![URL de Clonación de GitHub](image/mi-sync-a-fork.png)
 
-### 2.2 Resources
+## 3. Configura un Repositorio Remoto para Tu Fork
 
-- [GitHub Help: Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
-- [Git Documentation](https://git-scm.com/doc)
+Para obtener actualizaciones del repositorio upstream, configúralo de la siguiente manera:
 
-By following these steps, you ensure your repositories are consistently up to date and avoid conflicts (Refer the diagram below).
-
-![GitHub Clone URL](image/mi-sync-a-fork.png)
-
-## 3. Configure a Remote Repository for Your Fork
-
-To fetch updates from the upstream repository, configure it as follows:
-
-1. Open your command prompt/terminal and navigate to the repository directory:
+1. Abre tu línea de comandos/terminal y navega al directorio del repositorio:
 
   ```bash
-  cd <YourUserName>.github.io
+  cd <TuUsuario>.github.io
   ```
 
-2. List the current configured remote repository:
+2. Lista el repositorio remoto configurado actualmente:
 
   ```bash
   git remote -v
   ```
 
-  This should show:
+  Esto debería mostrar:
 
   ```bash
-  origin  https://github.com/<YourUserName>/<YourUserName>.github.io.git (fetch)
-  origin  https://github.com/<YourUserName>/<YourUserName>.github.io.git (push)
+  origin  https://github.com/<TuUsuario>/<TuUsuario>.github.io.git (fetch)
+  origin  https://github.com/<TuUsuario>/<TuUsuario>.github.io.git (push)
   ```
 
-3. Add the upstream repository:
+3. Añade el repositorio upstream:
 
   ```bash
-  git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git
+  git remote add upstream https://github.com/todosconectados-gt/todosconectados-gt.github.io.git
   ```
 
-4. Verify the upstream repository is configured correctly:
+4. Verifica que el repositorio upstream esté configurado correctamente:
 
   ```bash
   git remote -v
   ```
 
-  This should show:
+  Esto debería mostrar:
 
   ```bash
-  origin  https://github.com/<YourUserName>/<YourUserName>.github.io.git (fetch)
-  origin  https://github.com/<YourUserName>/<YourUserName>.github.io.git (push)
-  upstream  https://github.com/open-learning-exchange/open-learning-exchange.github.io.git (fetch)
-  upstream  https://github.com/open-learning-exchange/open-learning-exchange.github.io.git (push)
+  origin  https://github.com/<TuUsuario>/<TuUsuario>.github.io.git (fetch)
+  origin  https://github.com/<TuUsuario>/<TuUsuario>.github.io.git (push)
+  upstream  https://github.com/todosconectados-gt/todosconectados-gt.github.io.git (fetch)
+  upstream  https://github.com/todosconectados-gt/todosconectados-gt.github.io.git (push)
   ```
 
-  If noticed the upstream URLs are wrong, use `git remote rm upstream` and repeat "3. Add the upstream repository".
+  Si notas que las URLs del upstream son incorrectas, usa `git remote rm upstream` y repite "3. Añadir el repositorio upstream".
 
-## 4. Sync Your Fork
+## 4. Sincroniza Tu Fork
 
-1. Retrieves any changes from the remote repository named `upstream` to your local repository:
+1. Obtén cualquier cambio del repositorio remoto llamado `upstream` a tu repositorio local:
 
    ```bash
    git fetch upstream
    ```
 
-2. Switch to your local repository's master branch:
+2. Cambia a la rama todos de tu repositorio local:
 
    ```bash
-   git checkout master
+   git checkout todos
    ```
 
-3. Merge the upstream/master with currnet branch in your local repository:
+3. Combina el upstream/todos con la rama actual en tu repositorio local:
 
   ```bash
-  git merge upstream/master
+  git merge upstream/todos
   ```
 
-  If Vim editor shows up for commit message, use `:wq` (**w**rite and **q**uit) to exit with the default message.
+  Si aparece el editor Vim para el mensaje de commit, usa `:wq` (**w**rite y **q**uit) para salir con el mensaje por defecto.
 
-4. Push the updates made to your repository to GitHub:
+4. Empuja las actualizaciones realizadas a tu repositorio en GitHub:
 
   ```bash
-  git push origin master
+  git push origin todos
   ```
 
-## Summary of Steps
+## Resumen de Pasos
 
-Generally, follow these commands in your command line, but refer back above if there are any errors or further questions about why you are writing any of the following commands
+En general, sigue estos comandos en tu línea de comandos, pero consulta arriba si hay errores o preguntas adicionales sobre por qué estás escribiendo alguno de los siguientes comandos:
 
-#### Clone your GitHub repository &lt;YourUserName&gt;.github.io
+#### Clona tu repositorio de GitHub `<TuUsuario>.github.io`
 
-1. Open your command prompt/terminal and find the correct directory
-2. Copy the HTTPS or SSH link from your repository on the GitHub site
-3. On the command line, type `git clone *paste your HTTPS or SSH link here*`
+1. Abre tu línea de comandos/terminal y encuentra el directorio correcto.
+2. Copia el enlace HTTPS o SSH desde tu repositorio en el sitio de GitHub.
+3. En la línea de comandos, escribe `git clone *pega tu enlace HTTPS o SSH aquí*`.
 
-#### Understand that there are three levels of a Github repository
+#### Comprende que hay tres niveles de un repositorio en GitHub
 
-- the upstream ([open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io))
-- Your &lt;YourUserName&gt;.github.io on GitHub
-- Your &lt;YourUserName&gt;.github.io on your OS.
+- el upstream ([todosconectados-gt.github.io](https://github.com/todosconectados-gt/todosconectados-gt.github.io))
+- Tu `<TuUsuario>.github.io` en GitHub
+- Tu `<TuUsuario>.github.io` en tu sistema operativo.
 
-These need to be synced and checked constantly.
-The **upstream repository** is the one we are contributing to.
+Estos necesitan estar sincronizados y revisados constantemente.
+El **repositorio upstream** es al que estamos contribuyendo.
 
-#### Configure the upstream repository to your fork
+#### Configura el repositorio upstream a tu fork
 
-1. `cd <YourUserName>.github.io.`
-2. `git remote -v` see above to make sure you are pushing and fetching to your own repository on GitHub as the origin
-3. `git remote add upstream https://github.com/open-learning-exchange/open-learning-exchange.github.io.git`
-4. `git remote -v` origins should remain the same, but you should also be fetching and pushing to OLE as the upstream now
+1. `cd <TuUsuario>.github.io.`
+2. `git remote -v` consulta arriba para asegurarte de que estás empujando y obteniendo a tu propio repositorio en GitHub como origin.
+3. `git remote add upstream https://github.com/todosconectados-gt/todosconectados-gt.github.io.git`
+4. `git remote -v` los origins deberían permanecer igual, pero ahora también deberías estar obteniendo y empujando a OLE como upstream.
 
-#### Sync Your Fork
+#### Sincroniza Tu Fork
 
-1. `git fetch upstream` -  to fetch branches from the upstream repository ([more info](https://git-scm.com/docs/git-fetch))
-2. `git checkout master` - to checkout the `master` branch ([more info](https://git-scm.com/docs/git-checkout))
-3. `git show-branch` - to see branches and the changes made in them ([more info](https://git-scm.com/docs/git-show-branch))
-4. `git merge upstream/master` - You repository should now be synced to upstream/master ([more info](https://git-scm.com/docs/git-merge))
+1. `git fetch upstream` - para obtener ramas del repositorio upstream ([más info](https://git-scm.com/docs/git-fetch))
+2. `git checkout todos` - para cambiar a la rama `todos` ([más info](https://git-scm.com/docs/git-checkout))
+3. `git show-branch` - para ver ramas y los cambios realizados en ellas ([más info](https://git-scm.com/docs/git-show-branch))
+4. `git merge upstream/todos` - Tu repositorio ahora debería estar sincronizado con upstream/todos ([más info](https://git-scm.com/docs/git-merge))
 
-#### Make sure your repository is up to date
+#### Asegúrate de que tu repositorio esté actualizado
 
-1. `git diff` - for comparing different versions of the same file ([more info](https://git-scm.com/docs/git-diff))
-2. `git status` - to view the changes made in the branch, whether the branch is up-to-date with master ([more info](https://git-scm.com/docs/git-status))
-3. `git pull` - to sync the local repository with the remote repository ([more info](https://git-scm.com/docs/git-pull))
-4. `git push` - to push the updates that you made to the local repositories to the GitHub repositories ([more info](https://git-scm.com/docs/git-push))
+1. `git diff` - para comparar diferentes versiones del mismo archivo ([más info](https://git-scm.com/docs/git-diff))
+2. `git status` - para ver los cambios realizados en la rama, si la rama está actualizada con todos ([más info](https://git-scm.com/docs/git-status))
+3. `git pull` - para sincronizar el repositorio local con el repositorio remoto ([más info](https://git-scm.com/docs/git-pull))
+4. `git push` - para empujar las actualizaciones que realizaste en los repositorios locales a los repositorios en GitHub ([más info](https://git-scm.com/docs/git-push))
 
-**NOTE**: Developers should always sync their fork and make sure their repositories are up to date with GitHub every time they begin to work. This way we as a team can minimize data loss, and can save you some time.
+**NOTA**: Los desarrolladores deben sincronizar siempre su fork y asegurarse de que sus repositorios estén actualizados con GitHub cada vez que comiencen a trabajar. De esta manera, como equipo, podemos minimizar la pérdida de datos y ahorrar tiempo.
 
-#### If you find yourself needing to rebase your forked repository, the following two links should help
+#### Si te encuentras necesitando rebasar tu repositorio fork, los siguientes dos enlaces deberían ayudarte
 
 - [Rebase](https://git-scm.com/docs/git-rebase)
-- [Branching Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+- [Ramas y Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
-**NOTE**: While rebasing and merging are similar, there is a difference between them. Merging takes all changes in one branch and merges onto another branch in one commit. Rebasing moves the branch's starting point to another place. For example, if you rebased your branch to the master branch, then your branch now incorporates all the changes made in the master, and every time master is changed, your branch is changed as well. In contrast, merging is a one-time change.
+**NOTA**: Aunque rebase y merge son similares, hay una diferencia entre ellos. El merge toma todos los cambios en una rama y los fusiona en otra rama en un solo commit. El rebase mueve el punto de partida de la rama a otro lugar. Por ejemplo, si rebasas tu rama a la rama `todos`, entonces tu rama ahora incorpora todos los cambios realizados en `todos`, y cada vez que `todos` cambia, tu rama también cambia. En contraste, el merge es un cambio único.
 
-For more info on differences of merging vs. rebasing (and when to use which one), [check this out](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+Para más información sobre las diferencias entre merging y rebasing (y cuándo usar cada uno), [consulta esto](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
-If you would like to understand how syncing with the fork works, here is a useful [video](https://www.youtube.com/watch?v=-zvHQXnBO6c)
+Si deseas comprender cómo funciona la sincronización con el fork, aquí hay un útil [video](https://www.youtube.com/watch?v=-zvHQXnBO6c)
 
-## Useful links
+## Enlaces Útiles
 
-- [Configuring a remote repository for a fork | GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork) - You can sync changes made in the original repository with a fork.
-- [Syncing a fork | GitHub Docs](https://help.github.com/articles/syncing-a-fork/) - Sync a fork of a repository to keep it up-to-date with the upstream repository.
-- [GitHub tutorial](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) - An Introduction to Git and GitHub for beginners from HubSpot.
-- [Git-it Workshop](http://jlord.us/git-it/) - Runs in your terminal to work and provides a hands-on approach to learn Git and GitHub repositories.
-- [Git help](https://git-scm.com/) - An encyclopedia of useful git workflows and terminology explanations.
-- [Other helpful links and videos](mi-faq.md#Helpful_Links)
+- [Configurar un repositorio remoto para un fork | GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork) - Puedes sincronizar los cambios realizados en el repositorio original con un fork.
+- [Sincronizando un fork | GitHub Docs](https://help.github.com/articles/syncing-a-fork/) - Sincroniza un fork de un repositorio para mantenerlo actualizado con el repositorio upstream.
+- [Tutorial de GitHub](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) - Una introducción a Git y GitHub para principiantes de HubSpot.
+- [Git-it Workshop](http://jlord.us/git-it/) - Se ejecuta en tu terminal para trabajar y proporciona un enfoque práctico para aprender Git y los repositorios de GitHub.
+- [Ayuda de Git](https://git-scm.com/) - Una enciclopedia de flujos de trabajo útiles de git y explicaciones de la terminología.
+- [Otros enlaces y videos útiles](mi-faq.md#Helpful_Links)
 
-#### Return to [First Steps](mi-10-steps.md#Step_5_-_Git_Repositories:_A_Guide_to_Cloning,_Configuring,_and_Syncing_Forks)
+#### Regresar a [Primeros Pasos](mi-10-steps.md#Step_5_-_Git_Repositories:_A_Guide_to_Cloning,_Configuring,_and_Syncing_Forks)

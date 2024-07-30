@@ -1,51 +1,51 @@
-# Take a Course on myPlanet, Courses Gardening
+# Toma un Curso en myPlanet, Jardinería de Cursos
 
-## myPlanet App Dashboard and Courses Overview
+## Panel de Control de la Aplicación myPlanet y Visión General de Cursos
 
-After logging into the myPlanet app, you'll land on the dashboard, the central hub where you can access key features and tools. The dashboard offers shortcuts to frequently used features, personalized recommendations, notifications, progress updates, and more.
+Después de iniciar sesión en la aplicación myPlanet, aterrizarás en el panel de control, el centro neurálgico donde puedes acceder a funciones y herramientas clave. El panel de control ofrece accesos directos a funciones utilizadas con frecuencia, recomendaciones personalizadas, notificaciones, actualizaciones de progreso y más.
 
-![Dashboard Screenshot](image/mi-dashboard.png)
+![Captura de Pantalla del Panel de Control](image/mi-dashboard.png)
 
-To access the course catalog, click on the "Courses" section on the dashboard. This will take you to a page displaying all available courses.
+Para acceder al catálogo de cursos, haz clic en la sección "Cursos" en el panel de control. Esto te llevará a una página que muestra todos los cursos disponibles.
 
-**Hint**: 
-If you can't locate the "Courses" tab, try rotating your device to landscape mode. Alternatively, click the logo in the top left corner to reveal the navigation menu, including the "Courses" tab.
+**Hint**:
+Si no puedes localizar la pestaña "Cursos", intenta rotar tu dispositivo a modo paisaje. Alternativamente, haz clic en el logo en la esquina superior izquierda para revelar el menú de navegación, incluida la pestaña "Cursos".
 
-![Courses List Screenshot](image/mi-courses-list.png)
+![Captura de Pantalla de la Lista de Cursos](image/mi-courses-list.png)
 
-To view the courses you've already joined, use the sidebar menu by swiping from the left or clicking the Planet logo in the upper left corner and select "myCourses." This will direct you to a dedicated page showing the courses in which you're currently enrolled.
+Para ver los cursos a los que ya te has unido, usa el menú de la barra lateral deslizando desde la izquierda o haciendo clic en el logo de Planet en la esquina superior izquierda y selecciona "misCursos". Esto te llevará a una página dedicada que muestra los cursos en los que estás actualmente inscrito.
 
-![Side Menu Screenshot](image/mi-side-menu.png)
+![Captura de Pantalla del Menú Lateral](image/mi-side-menu.png)
 
-After completing a course, rate your experience by using the star rating system. Click on the stars to indicate your level of satisfaction with the course content, presentation, and overall usefulness.
+Después de completar un curso, califica tu experiencia utilizando el sistema de calificación por estrellas. Haz clic en las estrellas para indicar tu nivel de satisfacción con el contenido del curso, la presentación y la utilidad general.
 
-![Rating Icon Click Screenshot](image/mi-rating-icon-click.png)
-![Rating Popup Screenshot](image/mi-rating-popup.png)
+![Captura de Pantalla del Icono de Calificación](image/mi-rating-icon-click.png)
+![Captura de Pantalla del Popup de Calificación](image/mi-rating-popup.png)
 
-Your feedback helps course creators improve content and aids other users in choosing the best courses for them.
+Tu retroalimentación ayuda a los creadores de cursos a mejorar el contenido y ayuda a otros usuarios a elegir los mejores cursos para ellos.
 
-## "GitHub Issues and Pull Requests" Course
+## Curso "GitHub Issues y Pull Requests"
 
-Follow these steps below to join and take the "GitHub Issues and Pull Requests" course:
+Sigue los siguientes pasos para unirte y tomar el curso "GitHub Issues y Pull Requests":
 
-- **Explore Available Courses:** Go to the "Courses" tab, where you'll find a list of courses.
-  - On smaller devices, open the menu by swiping from the left or clicking the Planet logo in the upper left corner.
-- **Select and Join a Course:** Find and choose the "GitHub Issues and Pull Requests" course. Click the yellow "Join" button on the course detail page.
-- **Access the Course:** Go to the "myCourse" tab to view your courses. Take a screenshot there.
-- **Begin the Course:** Start by reading the course description. Click "Next" to go to course step 1.
-- **Engage with Course Materials:** After reading through step 2, complete the test by clicking on the blue "TEST" button.
-- **Provide Feedback:** Once you are finished and back to the myCourses screen, rate the course and leave a comment. Take a screenshot there.
-- **Sync Your Course Rating Back to the Nation:** Click on the 3-dot menu on the upper right corner of the screen, select "Sync Now".
+- **Explora los Cursos Disponibles:** Ve a la pestaña "Cursos", donde encontrarás una lista de cursos.
+  - En dispositivos más pequeños, abre el menú deslizando desde la izquierda o haciendo clic en el logo de Planet en la esquina superior izquierda.
+- **Selecciona y Únete a un Curso:** Encuentra y elige el curso "GitHub Issues y Pull Requests". Haz clic en el botón amarillo "Unirse" en la página de detalles del curso.
+- **Accede al Curso:** Ve a la pestaña "misCursos" para ver tus cursos. Toma una captura de pantalla allí.
+- **Inicia el Curso:** Comienza leyendo la descripción del curso. Haz clic en "Siguiente" para ir al paso 1 del curso.
+- **Interactúa con los Materiales del Curso:** Después de leer el paso 2, completa la prueba haciendo clic en el botón azul "PRUEBA".
+- **Proporciona Retroalimentación:** Una vez que hayas terminado y regresado a la pantalla de misCursos, califica el curso y deja un comentario. Toma una captura de pantalla allí.
+- **Sincroniza Tu Calificación de Curso con la Nación:** Haz clic en el menú de 3 puntos en la esquina superior derecha de la pantalla, selecciona "Sincronizar Ahora".
 
-**NOTE**: Let us know you are on step 7 in the discord channel, send the two screenshots you took. Be sure to tag @okurole_25668 and @dogi in your message.
+**NOTA**: Infórmanos que estás en el paso 7 en el canal de Discord, envía las dos capturas de pantalla que tomaste. Asegúrate de etiquetar a @okurole_25668 y @dogi en tu mensaje.
 
-## Gardening
+## Jardinería
 
-**Attention**: Please skip this section for now since it's under construction...
+**Atención**: Por favor, omite esta sección por ahora ya que está en construcción...
 
-There are a few nations we
-- vi - for virtual interns like yourself, most suitable for experimenting with things
+Hay algunas naciones que
+- vi - para internos virtuales como tú, más adecuado para experimentar con cosas
 - learning - android
-- guatemala - Spanish speaking
+- guatemala - de habla hispana
 
-#### Return to [First Steps](mi-10-steps.md#Step_7_-_Take_a_Course_on_myPlanet,_Courses_Gardening)
+#### Regresar a [Primeros Pasos](mi-10-steps.md#Paso_7_-_Toma_un_Curso_en_myPlanet,_Jardinería_de_Cursos)

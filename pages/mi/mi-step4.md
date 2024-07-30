@@ -1,35 +1,35 @@
-# Connecting myPlanet to Planet
+# Conectando myPlanet a Planet
 
-## Background
+## Antecedentes
 
-We use the nation/community infrastructure because our software is often deployed in areas without internet access. Nations are services in the cloud that are connected to the internet. Communities, typically run locally on Raspberry Pis and/or laptops, operate on an intranet and are sometimes not connected to the internet. Nations, being internet-connected, facilitate communication between us (with internet access) and users in communities (without internet access). However, for a community to sync with a nation, it must connect to the internet to enable bidirectional data exchange.
+Usamos la infraestructura de naciones/comunidades porque nuestro software a menudo se despliega en áreas sin acceso a internet. Las naciones son servicios en la nube conectados a internet. Las comunidades, generalmente ejecutadas localmente en Raspberry Pis y/o laptops, operan en una red interna y a veces no están conectadas a internet. Las naciones, al estar conectadas a internet, facilitan la comunicación entre nosotros (con acceso a internet) y los usuarios en las comunidades (sin acceso a internet). Sin embargo, para que una comunidad se sincronice con una nación, debe conectarse a internet para permitir el intercambio bidireccional de datos.
 
-## Connecting myPlanet to Planet Virtual Interns Nation "vi"
+## Conectando myPlanet a la Nación Virtual Interns "vi"
 
-[Tutorial video for this section](https://www.youtube.com/watch?v=Gm194qUNz0o)
+[Video tutorial para esta sección](https://www.youtube.com/watch?v=Gm194qUNz0o)
 
-In this step, you will be connecting our mobile application, myPlanet, to Planet "vi" nation. To establish the connection, follow the instructions below:
+En este paso, conectarás nuestra aplicación móvil, myPlanet, a la nación "vi" de Planet. Para establecer la conexión, sigue las instrucciones a continuación:
 
-- **Configuration**: Click the settings gear icon in the upper-right corner to open the settings dialog box.
-  - Toggle on "manual" configuration.
-  - Select "https".
-  - Enter the following for "planet ip": `planet.vi.ole.org`.
-  - For "server pin", send `-get_vi_nation_pin` in the [mobile intern discord channel](https://discord.com/channels/1079980988421132369/1131244649902772235) and you will receive a DM containing the PIN from YAGPDB bot
-  - Click "SYNC" and allow the synchronization process to complete.
+- **Configuración**: Haz clic en el ícono de engranaje en la esquina superior derecha para abrir el cuadro de diálogo de configuración.
+  - Activa la configuración "manual".
+  - Selecciona "https".
+  - Ingresa lo siguiente para "planet ip": `planet.vi.ole.org`.
+  - Para "server pin", envía `-get_vi_nation_pin` en el [canal de Discord de internos móviles](https://discord.com/channels/1079980988421132369/1131244649902772235) y recibirás un DM con el PIN del bot YAGPDB.
+  - Haz clic en "SYNC" y permite que el proceso de sincronización se complete.
 
-  ![Server Address Popup Screenshot](image/mi-server-address-popup.png)
+  ![Captura de pantalla del popup de dirección del servidor](image/mi-server-address-popup.png)
 
-- **Create a User Account**: After syncing, click "BECOME A MEMBER" and fill in the required information to create an account. Keep your credentials somewhere, as you'll need them for future logins.
+- **Crear una Cuenta de Usuario**: Después de sincronizar, haz clic en "BECOME A MEMBER" y completa la información requerida para crear una cuenta. Guarda tus credenciales en algún lugar, ya que las necesitarás para futuros inicios de sesión.
 
-- **Sign In**: Use the username and password you just created to log in to myPlanet. You have now successfully connect myPlanet app to planet server.
+- **Iniciar Sesión**: Usa el nombre de usuario y la contraseña que acabas de crear para iniciar sesión en myPlanet. Ahora has conectado con éxito la aplicación myPlanet al servidor de Planet.
 
-**NOTE**: If you encounter issues during sign-in, try the following:
-1. Re-Sync: manually initiate sync by pressing the sync icon at the top left corner of the app. After syncing, try logging in again.
-2. Clear app data: Clear myPlanet's app data in Android's app info page. Try configuration steps above again.
-3. If the issue persists, contact us on Discord with details.
+**NOTA**: Si encuentras problemas durante el inicio de sesión, prueba lo siguiente:
+1. Re-Sincronizar: inicia manualmente la sincronización presionando el ícono de sincronización en la esquina superior izquierda de la aplicación. Después de sincronizar, intenta iniciar sesión nuevamente.
+2. Borrar datos de la aplicación: Borra los datos de la aplicación myPlanet en la página de información de la aplicación de Android. Intenta los pasos de configuración nuevamente.
+3. Si el problema persiste, contáctanos en Discord con los detalles.
 
-- **Explore Around**: Click around and explore the app's basic features, let us know in the Discord channel if you notice any issues.
+- **Explora**: Haz clic y explora las características básicas de la aplicación, háznoslo saber en el canal de Discord si notas algún problema.
 
-Take a screenshot of the myPlanet app's home page on your device, then share it in the Discord channel to let us know you've completed step 4.
+Toma una captura de pantalla de la página de inicio de la aplicación myPlanet en tu dispositivo y compártela en el canal de Discord para hacernos saber que has completado el paso 4.
 
-#### Return to [First Steps](mi-10-steps.md#Step_4_-_Connect_myPlanet_app_to_Planet)
+#### Volver a [Primeros Pasos](mi-10-steps.md#Step_4_-_Connect_myPlanet_app_to_Planet)
