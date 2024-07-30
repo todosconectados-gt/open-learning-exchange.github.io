@@ -1,27 +1,26 @@
-**Important:** *Do not tick a checkbox if you haven’t performed its action.*
+**Importante:** *No marques una casilla si no has realizado la acción correspondiente.*
 
-### Before Creating the Pull Request
+### Antes de Crear la Pull Request
 
-- [ ] Verify the changes are on a new branch other than `todos` – it should say "compare: branch-name".
-- [ ] Start the pull request title with lowercase letters, e.g., `add githubusername.md`.
-- [ ] Add issue number to the end of the pull request title when applicable, e.g., `update mi-faq.md (fixes #3264)`.
+- [ ] Verifica que los cambios están en una nueva rama diferente a `todos` – debería decir "compare: branch-name".
+- [ ] Comienza el título de la pull request con letras minúsculas, por ejemplo, `add githubusername.md`.
+- [ ] Añade el número del issue al final del título de la pull request cuando sea aplicable, por ejemplo, `update mi-faq.md (fixes #3264)`.
 
-### After Creating the Pull Request
+### Después de Crear la Pull Request
 
-- [ ] Go to "Commits" tab, make sure the commit username is clickable and linked to your GitHub account correctly.
-- [ ] Review the "Files changed" tab to ensure there are no unnecessary files or changes included in the pull request.
-- [ ] Verify that the raw.githack preview link is included in the description.
-  - [ ] Preview the MDwiki rendered changes using the raw.githack link. Ensure it displays as expected without any errors.
-- [ ] Drop a link to this pull request in our discord channel.
+- [ ] Ve a la pestaña "Commits", asegúrate de que el nombre de usuario del commit es clickeable y está vinculado correctamente a tu cuenta de GitHub.
+- [ ] Revisa la pestaña "Files changed" para asegurarte de que no hay archivos o cambios innecesarios incluidos en la pull request.
+- [ ] Verifica que el enlace de vista previa de raw.githack está incluido en la descripción.
+  - [ ] Previsualiza los cambios renderizados de MDwiki usando el enlace de raw.githack. Asegúrate de que se muestra como se espera sin ningún error.
+- [ ] Deja un enlace a esta pull request en nuestro canal de Discord.
 
-### Description, Screenshots and/or Screencast
-<!-- Include a brief description of the changes along with any relevant screenshots or screencasts when necessary. Also, mention the issue number this pull request resolves. -->
+### Descripción, Capturas de Pantalla y/o Screencast
+<!-- Incluye una breve descripción de los cambios junto con cualquier captura de pantalla o screencast relevante cuando sea necesario. También menciona el número del issue que resuelve esta pull request. -->
 
 fixes #
 
-
 ### Raw.Githack Preview Link
-<!-- Provide the raw.githack link to the page(s) changed. Example:
+<!-- Proporciona el enlace de raw.githack a la(s) página(s) cambiada(s). Ejemplo:
 
 https://raw.githack.com/nhk057/nhk057.github.io/add-nhk057-profile/index.html#!pages/mi/profiles/nhk057.md
 
